@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Defs>
+
+	
+
+<RecipeDef Abstract="True" Name="EMLeechBase">
+		
+	<effectWorking>Cook</effectWorking>
+		
+	<soundWorking>Recipe_CookMeal</soundWorking>
+		
+	<workSpeedStat></workSpeedStat>
+		
+	<workSkill>Crafting</workSkill>
+		
+	<workSkillLearnFactor>0</workSkillLearnFactor>
+		
+	<workerClass>Recipe_InstallImplant</workerClass>
+	
+	
+	
+
+</RecipeDef>
+
+
+
+
+<!-- leech -->
+
+
+<RecipeDef ParentName="EMLeechBase">
+		
+<defName>MakeEMLeech</defName>
+		
+<label>search for leeches</label>
+		
+<description>Recover a claretous leech from the enclosure. These leeches subsist entirely on raw meat and can be used for various health benefits.</description>
+		
+		
+<jobString>fishing for leeches</jobString>
+		
+<workAmount>300</workAmount>
+		
+
+
+<ingredients>
+			
+		<li>
+				
+			<filter>	
+				<categories>
+						<li>MeatRaw</li>
+				</categories>			
+			</filter>
+	
+			<count>3</count>
+			
+		</li>
+	
+		
+</ingredients>
+		
+
+
+
+<products>
+			
+		<I_EMLeech>1</I_EMLeech>		
+</products>
+
+
+
+
+<fixedIngredientFilter>
+			
+			<categories>
+				<li>MeatRaw</li>
+			</categories>
+							
+</fixedIngredientFilter>
+	
+
+<researchPrerequisite>EM_SpiLee</researchPrerequisite>
+<recipeUsers>
+			
+		<li>LeechSpot</li>
+		
+	</recipeUsers>
+	
+
+</RecipeDef>
+
+
+
+
+
+
+
+
+
+
+
+</Defs>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ============= Fabricating ============= -->
+	<WorkGiverDef Name="EMGrubWorkGiver" Abstract="True">
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>90</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
+
+	<WorkGiverDef ParentName="EMGrubWorkGiver">
+		<defName>DoBillsForaging</defName>
+		<label>grub foraging</label>
+		<fixedBillGiverDefs>
+			<li>ForagingSpot</li>
+		</fixedBillGiverDefs>
+		<verb>searching</verb>
+		<gerund>searching</gerund>
+	</WorkGiverDef>
+
+
+	<WorkGiverDef ParentName="EMGrubWorkGiver">
+		<defName>DoBillsLeech</defName>
+		<label>grub foraging</label>
+		<fixedBillGiverDefs>
+			<li>LeechSpot</li>
+		</fixedBillGiverDefs>
+		<verb>searching</verb>
+		<gerund>searching</gerund>
+	</WorkGiverDef>
+
+
+
+	<WorkGiverDef ParentName="EMGrubWorkGiver">
+		<defName>DoBillsLoom</defName>
+		<label>grub foraging</label>
+		<fixedBillGiverDefs>
+			<li>InsectLoom</li>
+		</fixedBillGiverDefs>
+		<verb>spinning</verb>
+		<gerund>spinning</gerund>
+	</WorkGiverDef>
+
+
+</Defs>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs> 
+
+
+
+ <!--=====================================================================-->
+  <!--=============================== spider ================================-->
+  <!--=====================================================================-->
+
+
+							<!-- spider -->
+
+
+<ThingDef ParentName="OrganicProductBase">
+    <defName>I_EMSpider</defName>
+    <label>crispleg tarantula</label>
+    <description>The crispleg tarantula is a rare example of a social spider who nests en masse with others of its kind. Almost exclusively nests in the creeping willow tree. High protein content and surprisingly tasty.</description>
+    <graphicData>
+      <texPath>Things/Item/spider</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+
+
+<thingCategories>
+      <li>MeatRaw</li>
+    </thingCategories>
+
+	 <ingestible>
+      <foodType>AnimalProduct</foodType>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <tasteThought>AteRawFood</tasteThought>
+<preferability>DesperateOnly</preferability>
+    </ingestible>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <Nutrition>0.25</Nutrition>
+      <MaxHitPoints>20</MaxHitPoints>
+      <MarketValue>1</MarketValue>
+      <Mass>0.025</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>3</DeteriorationRate>
+    </statBases>
+    
+<comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+        <disableIfHatcher>true</disableIfHatcher>
+      </li>
+    </comps>
+  </ThingDef>
+
+
+						
+
+
+</Defs>

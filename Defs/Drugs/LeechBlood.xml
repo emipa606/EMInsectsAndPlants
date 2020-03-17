@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="MakeableDrugPillBase">
+    <defName>EM_LeechBlood</defName>
+    <label>leech poultice</label>
+    <description>Leeches that have been starved, when applied to the skin will promote blood filtration and help the body fight off diseases and infections.</description>
+    <graphicData>
+      <texPath>Things/Item/poultice</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <MarketValue>10</MarketValue>
+      <Mass>0.005</Mass>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>EM_LeechBloodAc</hediffDef>
+          <severity>1.0</severity>
+		  <doToGeneratedPawnIfAddicted>false</doToGeneratedPawnIfAddicted>
+        </li>
+      </outcomeDoers>
+
+ <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>Apply {0}</ingestCommandString>
+      <ingestReportString>Applying {0}.</ingestReportString>
+      <ingestReportStringEat>Consuming {0}.</ingestReportStringEat>
+
+
+    </ingestible>
+    <recipeMaker>
+      <recipeUsers>
+        <li>DrugLab</li>
+	<li>CraftingSpot</li>
+      </recipeUsers>
+	  <researchPrerequisite>EM_SpiLee</researchPrerequisite>
+      <skillRequirements>
+        <Medicine>6</Medicine>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <MedicineHerbal>1</MedicineHerbal>
+      <I_EMLeech>5</I_EMLeech>
+	<I_EMSBandage>2</I_EMSBandage>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.08</min>
+          <max>0.14</max>
+        </overdoseSeverityOffset>
+		<addictiveness>0</addictiveness>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <HediffDef>
+    <defName>EM_LeechBloodAc</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>leeches drinking blood</label>
+    <description>leeches drinking blood</description>
+    <labelNoun>leeched</labelNoun>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-2.0</severityPerDay>
+      </li>
+    </comps>
+      <stages>
+        <li>
+          <capMods>
+            <li>
+              <capacity>BloodFiltration</capacity>
+              <offset>0.2</offset>
+            </li>
+          </capMods>
+        </li>
+      </stages>
+  </HediffDef>
+
+
+  <ThoughtDef>
+    <defName>EM_LeechBloodAc</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>EM_LeechBloodAc</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>leeches drinking blood</label>
+        <description>These leeches look so gross!</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+    
+</Defs>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="TreeBase">
+    <defName>EMPlantTreeSpider</defName>
+    <label>creeping willow</label>
+    <description>A large, inedible tree grown as a nesting spot for the crispleg tarantula. These spiders prefer to make their homes in the branches of the creeping willow, the tree can be harvested along with the tarantulas to provide a source of protein.</description>
+    <graphicData>
+
+      <texPath>Things/Item/willow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+        <shadowData>
+          <volume>(0.15, 0.3, 0.15)</volume>
+          <offset>(0,0,-0.38)</offset>
+        </shadowData>
+    </graphicData>
+    <statBases>
+      <Nutrition>1.25</Nutrition>
+      <Beauty>2</Beauty>
+    </statBases>
+    <ingestible>
+      <preferability>RawBad</preferability>
+    </ingestible>
+	
+		<plant>
+		<harvestedThingDef>WoodLog</harvestedThingDef>
+	<harvestYield>25</harvestYield>
+       <sowMinSkill>4</sowMinSkill>
+			<growDays>10</growDays>
+		<visualSizeRange>1.3~3.0</visualSizeRange>
+      <harvestWork>700</harvestWork>
+	 <sowTags>
+        <li>Ground</li>
+      </sowTags>
+			<sowResearchPrerequisites>
+				<li>EM_SpiLee</li>
+			</sowResearchPrerequisites>
+    </plant>
+  </ThingDef>
+  
+</Defs>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Defs>
+
+	
+
+<RecipeDef Abstract="True" Name="EMBeetleBase">
+		
+	<effectWorking>Cook</effectWorking>
+		
+	<soundWorking>Recipe_CookMeal</soundWorking>
+		
+	<workSpeedStat></workSpeedStat>
+		
+	<workSkill>Crafting</workSkill>
+		
+	<workSkillLearnFactor>0</workSkillLearnFactor>
+		
+	<workerClass>Recipe_InstallImplant</workerClass>
+	
+	
+	
+
+</RecipeDef>
+
+
+
+
+<!-- beetle -->
+
+
+<RecipeDef ParentName="EMBeetleBase">
+		
+<defName>MakeEMBeetle</defName>
+		
+<label>forage for beetles</label>
+		
+<description>Recover a witchbreath beetle from the enclosure. These beetles subsist entirely on raw meat and can be refined into an intoxicating drug.</description>
+		
+		
+<jobString>foraging for beetles</jobString>
+		
+<workAmount>300</workAmount>
+		
+
+
+<ingredients>
+			
+		<li>
+				
+			<filter>	
+				<categories>
+						<li>MeatRaw</li>
+				</categories>			
+			</filter>
+	
+			<count>3</count>
+			
+		</li>
+	
+		
+</ingredients>
+		
+
+
+
+<products>
+			
+		<I_EMBeetle>1</I_EMBeetle>		
+</products>
+
+
+
+
+<fixedIngredientFilter>
+			
+			<categories>
+				<li>MeatRaw</li>
+			</categories>
+							
+</fixedIngredientFilter>
+	
+
+<researchPrerequisite>EM_BeeAnt</researchPrerequisite>
+<recipeUsers>
+			
+		<li>ForagingSpot</li>
+		
+	</recipeUsers>
+	
+
+</RecipeDef>
+
+
+
+
+
+
+
+
+
+
+</Defs>

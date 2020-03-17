@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>EM_Grubs</defName>
+		<label>Basic Insect Husbandry</label>
+		<description>Craft an insect inclosure and raise grubs that can be farmed for their cocoons. Silk and rope can be crafted at the silk loom.</description>
+		<baseCost>200</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0</researchViewX>
+		<researchViewY>2</researchViewY>
+		
+	</ResearchProjectDef>
+
+
+	<ResearchProjectDef>
+		<defName>EM_BeeAnt</defName>
+		<label>Advanced Insect Husbandry</label>
+		<description>Now both beetles and ants can be farmed from an inclosure. They can be crafted into powerful drugs.</description>
+		<baseCost>200</baseCost>
+		<techLevel>Neolithic</techLevel>
+
+		<prerequisites>
+			<li>EM_Grubs</li>
+		</prerequisites>
+
+		<researchViewX>1</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+
+	<ResearchProjectDef>
+		<defName>EM_SpiLee</defName>
+		<label>Exotic Insect Husbandry</label>
+		<description>Plant creeping willows that can be harvested for the spiders that nest in them and turned into a protein source. Leeches can be harvested from a leech pool and have powerful restorative properties.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Neolithic</techLevel>
+
+		<prerequisites>
+			<li>EM_BeeAnt</li>
+		</prerequisites>
+
+		<researchViewX>1</researchViewX>
+		<researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+
+
+	<ResearchProjectDef>
+		<defName>EM_BloD</defName>
+		<label>Blowdarts</label>
+		<description>Craft blowdarts that are tipped with noxious substances adept at causing pain, numbness, and death.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Neolithic</techLevel>
+
+		<prerequisites>
+			<li>EM_BeeAnt</li>
+		</prerequisites>
+
+		<researchViewX>2</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+
+	
+
+
+
+
+</Defs>

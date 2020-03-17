@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs> 
+
+
+
+ <!--=====================================================================-->
+  <!--=============================== Grubs ================================-->
+  <!--=====================================================================-->
+
+  <ThingDef Abstract="True" Name="EMGrubBase" ParentName="OrganicProductBase" >
+    <graphicData>
+      <texPath>Things/Item/grub</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+
+<thingCategories>
+      <li>EM_Insects</li>
+    </thingCategories>
+
+    <ingestible>
+       <foodType>AnimalProduct</foodType>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <tasteThought>AteRawFood</tasteThought>
+    </ingestible>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <Nutrition>0.01</Nutrition>
+      <Mass>0.05</Mass>
+			<MaxHitPoints>10</MaxHitPoints>
+			<DeteriorationRate>2</DeteriorationRate>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>3</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+        <disableIfHatcher>true</disableIfHatcher>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef Abstract="True" Name="EM_GrubUnfertBase" ParentName="EMGrubBase" >
+    <ingestible>
+      <preferability>RawBad</preferability>
+    </ingestible>
+    <thingCategories>
+      <li>EggsUnfertilized</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef Abstract="True" Name="EM_GrubFertBase" ParentName="EMGrubBase" >
+    <tickerType>Normal</tickerType>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+    </ingestible>
+    <thingCategories>
+      <li>EggsFertilized</li>
+    </thingCategories>
+		<comps>
+			<li Class="CompProperties_TemperatureRuinable">
+				<minSafeTemperature>5</minSafeTemperature>
+				<maxSafeTemperature>25</maxSafeTemperature>
+				<progressPerDegreePerTick>0.00009</progressPerDegreePerTick>
+			</li>
+		</comps>
+  </ThingDef>
+
+  <!-- featherwing -->
+  
+  <ThingDef ParentName="EM_GrubUnfertBase">
+    <defName>EM_FWGrubUnfertilized</defName>
+    <label>featherwing grub (dead)</label>
+    <description>Dead featherwing grub. They are very delicate and die once out of the ground if not housed in the correct environment. Can still be eaten for a little nutrition.</description>
+    <graphicData>
+      <color>(228,185,135)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.75</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="EM_GrubFertBase">
+    <defName>EM_FWGrubFertilized</defName>
+    <label>featherwing grub (larval)</label>
+    <description>A featherwing grub, if housed in the correct environment will mature in a matter of days into a featherwing moth, leaving behind a silk cocoon, in the wild the cocoons are eaten by the grub and are lost. Will die fairly quickly if left alone.</description>
+    <graphicData>
+      <color>(245,245,245)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.5</MarketValue>
+    </statBases>
+
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>EM_FWMoth</hatcherPawn>
+      </li>
+    </comps>
+
+
+  </ThingDef>
+
+
+
+							<!-- silk -->
+
+
+<ThingDef ParentName="ResourceBase">
+    <defName>I_EMSilk</defName>
+    <label>cocoon silk</label>
+    <description>Silk</description>
+    <graphicData>
+      <texPath>Things/Item/silk</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>4</MarketValue>
+      <Mass>0.025</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>3</DeteriorationRate>
+    </statBases>
+    <stuffProps>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <commonality>0.15</commonality>
+      <color>(208,255,197)</color>
+      <statOffsets />
+      <statFactors>
+        <Insulation_Cold>0.5</Insulation_Cold>
+        <Insulation_Heat>0.5</Insulation_Heat>
+      </statFactors>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+  </ThingDef>
+
+
+							<!-- silk rope -->
+
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>I_EMRope</defName>
+    <label>cocoon rope</label>
+    <description>Tough rope made from the cocoons of featherwing grubs. Can only be made into short sections but handles repeated use well, as such makes a good choice for traps.</description>
+    <graphicData>
+      <texPath>Things/Item/rope</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>21</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>1.0</Flammability>
+			<DeteriorationRate>2.0</DeteriorationRate>
+		</statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+
+
+
+
+							<!-- cocoon -->
+
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>I_EMCocoon</defName>
+    <label>featherwing cocoon</label>
+    <description>The discarded cocoon of a featherwing grub, made from a tough fibre that can be easily spun into a silk-like textile or rope.</description>
+    <graphicData>
+      <texPath>Things/Item/cocoon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>100</stackLimit>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>5</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>1.0</Flammability>
+			<DeteriorationRate>2.0</DeteriorationRate>
+		</statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>EM_Insects</li>
+    </thingCategories>
+  </ThingDef>
+
+
+</Defs>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="HatMakeableBase">
+    <defName>I_EMSpiderMask</defName>
+    <label>megaspider mask</label>
+    <description>A terrifying likeness of a megascarab. Horrible to look at but makes the wearer much more confident in their abilities.</description>
+    <techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Apparel/InsectMask/SpiderMask</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<costList>
+		<WoodLog>50</WoodLog>
+	</costList>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1.4</Mass>
+      <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+    </statBases>
+    <equippedStatOffsets>
+	    <PainShockThreshold>0.20</PainShockThreshold>
+	   <SocialImpact>-0.20</SocialImpact>
+		
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Item/Apparel/InsectMask/SpiderMask</wornGraphicPath>
+      <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Neolithic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Sculpt</effectWorking>
+      <soundWorking>Recipe_Sculpt</soundWorking>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+		<li>HandTailoringBench</li>
+		<li>ElectricTailoringBench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+
+</Defs>

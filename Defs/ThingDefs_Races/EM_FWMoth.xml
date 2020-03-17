@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <ThingDef ParentName="BaseInsect">
+    <defName>EM_FWMoth</defName>
+    <label>featherwing moth</label>
+    <description>The adult stage of the featherwing grubs life. A beautiful iridescent green moth that lives for at most a couple of days - but is a terrible pest and will destroy crops if given a chance.</description>
+    <statBases>
+      <MoveSpeed>1</MoveSpeed>
+      <ArmorRating_Blunt>0.0</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.0</ArmorRating_Sharp>
+      <ComfyTemperatureMin>5</ComfyTemperatureMin>
+      <MarketValue>3</MarketValue>
+      <LeatherAmount>0</LeatherAmount>
+	<MeatAmount>0</MeatAmount>
+    </statBases>
+    <tools>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>0</power>
+        <cooldownTime>25</cooldownTime>
+        <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>0</power>
+        <cooldownTime>25</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>BeetleLike</body>
+      <baseBodySize>0.1</baseBodySize>
+      <baseHungerRate>50000.0</baseHungerRate>
+      <baseHealthScale>0.005</baseHealthScale>
+      <wildness>1</wildness>
+      <lifeExpectancy>0.000001</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>EusocialInsectAdult</def>
+          <minAge>0.0</minAge>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>Insectoid</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>EM_FWMoth</defName>
+    <label>Featherwing moth</label>
+    <race>EM_FWMoth</race>
+    <combatPower>0</combatPower>
+	<canArriveManhunter>false</canArriveManhunter>
+	<ecoSystemWeight>0</ecoSystemWeight>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Megascarab/Megascarab</texPath>
+          <drawSize>0.5</drawSize>
+          <color>(96,206,0)</color>
+          <shadowData>
+            <volume>(0.2, 0.3, 0.2)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <drawSize>0</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+</Defs>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--
+<ThingDef ParentName="BaseMeleeWeapon_Sharp">
+		<defName>MeleeWeapon_ToxicShiv</defName>
+		<label>poisoned shiv</label>
+    <techLevel>Neolithic</techLevel>
+		<description>A simple shiv coated with a toxic substance that causes burns on contact with skin, the blade itself is quite blunt.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Shiv</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+    <weaponTags>
+      <li>NonNeolithicOnlyMelee</li>
+      <li>NonNeolithicOnlySimpleMelee</li>
+      <li>NeolithicMeleeBasic</li>
+    </weaponTags>
+		<costStuffCount>10</costStuffCount>
+		<statBases>
+			<WorkToMake>600</WorkToMake>
+			<Mass>0.4</Mass>
+		</statBases>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>9.7</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+-->
+
+
+
+
+<!-- blowdarts -->
+
+<ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>EM_BlowdartPain</defName>
+    <label>painful blowdart</label>
+    <graphicData>
+      <texPath>Things/Item/Weapon/dartP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>PArrowPain</damageDef>
+      <damageAmountBase>1</damageAmountBase>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+<ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>EM_BlowdartBreath</defName>
+    <label>lethal blowdart</label>
+    <graphicData>
+      <texPath>Things/Item/Weapon/dartV</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>PArrowBreath</damageDef>
+      <damageAmountBase>1</damageAmountBase>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+<ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>EM_BlowdartNumb</defName>
+    <label>numbing blowdart</label>
+    <graphicData>
+      <texPath>Things/Item/Weapon/dartT</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>PArrowNumb</damageDef>
+      <damageAmountBase>1</damageAmountBase>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+
+
+
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>EM_BlowgunPain</defName>
+    <label>painful blowgun</label>
+    <description>The same toxin that produces stimulation when ingested burns intensely when it enters the bloodstream. Causes a lot of pain.</description>
+    <graphicData>
+      <texPath>Things/Item/Weapon/blowgunP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Bow_Small</soundInteract>
+    <costList>
+      <WoodLog>30</WoodLog>
+	<EM_AutovimBase>10</EM_AutovimBase>
+	<PsychoidLeaves>30</PsychoidLeaves>
+    </costList>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <Mass>0.8</Mass>
+      <AccuracyTouch>0.89</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.41</AccuracyMedium>
+      <AccuracyLong>0.22</AccuracyLong>
+      <RangedWeapon_Cooldown>1.66</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>NeolithicRanged</li>
+      <li>NeolithicRangedBasic</li>
+    </weaponTags>
+    <recipeMaker>
+	<researchPrerequisite>EM_BloD</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>EM_BlowdartPain</defaultProjectile>
+        <warmupTime>1.00</warmupTime>
+        <range>17</range>
+        <soundCast>Bow_Small</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>EM_BlowgunBreath</defName>
+    <label>lethal blowgun</label>
+    <description>Toxins that coat these darts depress breathing - can lead to lethal buildup extremely quickly.</description>
+    <graphicData>
+      <texPath>Things/Item/Weapon/blowgunV</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Bow_Small</soundInteract>
+    <costList>
+      <WoodLog>30</WoodLog>
+	<EM_witchbreath>5</EM_witchbreath>
+	<EM_AutovimBase>5</EM_AutovimBase>
+	<PsychoidLeaves>30</PsychoidLeaves>
+    </costList>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <Mass>0.8</Mass>
+      <AccuracyTouch>0.89</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.41</AccuracyMedium>
+      <AccuracyLong>0.22</AccuracyLong>
+      <RangedWeapon_Cooldown>1.66</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>NeolithicRanged</li>
+      <li>NeolithicRangedBasic</li>
+    </weaponTags>
+    <recipeMaker>
+	<researchPrerequisite>EM_BloD</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>EM_BlowdartBreath</defaultProjectile>
+        <warmupTime>1.00</warmupTime>
+        <range>17</range>
+        <soundCast>Bow_Small</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>EM_BlowgunNumb</defName>
+    <label>numbing blowgun</label>
+    <description>Numbs the target with a combination toxin, producing unconsciousness. Potentially lethal in high enough doses.</description>
+    <graphicData>
+      <texPath>Things/Item/Weapon/blowgunT</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Bow_Small</soundInteract>
+    <costList>
+      <WoodLog>30</WoodLog>
+	<EM_witchbreath>10</EM_witchbreath>
+	<PsychoidLeaves>30</PsychoidLeaves>
+    </costList>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <Mass>0.8</Mass>
+      <AccuracyTouch>0.89</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.41</AccuracyMedium>
+      <AccuracyLong>0.22</AccuracyLong>
+      <RangedWeapon_Cooldown>1.66</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>NeolithicRanged</li>
+      <li>NeolithicRangedBasic</li>
+    </weaponTags>
+    <recipeMaker>
+	<researchPrerequisite>EM_BloD</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>EM_BlowdartNumb</defaultProjectile>
+        <warmupTime>1.00</warmupTime>
+        <range>17</range>
+        <soundCast>Bow_Small</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+</Defs>

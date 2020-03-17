@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DamageDef ParentName="CutBase">
+    <defName>PArrowPain</defName>
+    <label>poisoned</label>
+    <workerClass>DamageWorker_Cut</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been painfully poisoned.</deathMessage>
+    <hediff>Poison</hediff>
+    <hediffSkin>Poison</hediffSkin>
+    <hediffSolid>Poison</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Slice</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+  </DamageDef>
+
+  <DamageDef ParentName="CutBase">
+    <defName>PArrowBreath</defName>
+    <label>envenomed</label>
+    <workerClass>DamageWorker_Cut</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been lethally poisoned.</deathMessage>
+    <hediff>Venom</hediff>
+    <hediffSkin>Venom</hediffSkin>
+    <hediffSolid>Venom</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Slice</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+  </DamageDef>
+
+  <DamageDef ParentName="CutBase">
+    <defName>PArrowNumb</defName>
+    <label>toxin</label>
+    <workerClass>DamageWorker_Cut</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been infected by numbing toxin.</deathMessage>
+    <hediff>Toxin</hediff>
+    <hediffSkin>Toxin</hediffSkin>
+    <hediffSolid>Toxin</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Slice</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+  </DamageDef>
+
+</Defs>

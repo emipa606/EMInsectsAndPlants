@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="MakeableDrugPillBase">
+    <defName>EM_LeechPain</defName>
+    <label>leech painkiller</label>
+    <description>Leeches that have been specially fed to increase their pain-killing effects. Slightly depresses breathing.</description>
+    <graphicData>
+      <texPath>Things/Item/painkiller</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <MarketValue>10</MarketValue>
+      <Mass>0.005</Mass>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>EM_LeechBloodPa</hediffDef>
+          <severity>1.0</severity>
+		  <doToGeneratedPawnIfAddicted>false</doToGeneratedPawnIfAddicted>
+        </li>
+      </outcomeDoers>
+
+ <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>Apply {0}</ingestCommandString>
+      <ingestReportString>Applying {0}.</ingestReportString>
+      <ingestReportStringEat>Consuming {0}.</ingestReportStringEat>
+
+
+    </ingestible>
+    <recipeMaker>
+      <recipeUsers>
+        <li>DrugLab</li>
+	<li>CraftingSpot</li>
+      </recipeUsers>
+	  <researchPrerequisite>EM_SpiLee</researchPrerequisite>
+      <skillRequirements>
+        <Medicine>6</Medicine>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+
+    <costList>
+      <MedicineHerbal>1</MedicineHerbal>
+      <I_EMLeech>3</I_EMLeech>
+	<I_EMSBandage>1</I_EMSBandage>
+    </costList>
+
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.08</min>
+          <max>0.14</max>
+        </overdoseSeverityOffset>
+		<addictiveness>0</addictiveness>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <HediffDef>
+    <defName>EM_LeechBloodPa</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>leech analgesia</label>
+    <description>leech analgesia</description>
+    <labelNoun>leeched</labelNoun>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-2.0</severityPerDay>
+      </li>
+    </comps>
+      <stages>
+        <li>
+		<painFactor>0.85</painFactor>
+	<capMods>
+    		<li>
+              <capacity>Breathing</capacity>
+              <offset>-0.1</offset>
+            </li>
+          </capMods>
+        </li>
+      </stages>
+  </HediffDef>
+
+
+  <ThoughtDef>
+    <defName>EM_LeechBloodPa</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>EM_LeechBloodPa</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>leeches for the pain</label>
+        <description>These leeches look gross!</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+    
+</Defs>

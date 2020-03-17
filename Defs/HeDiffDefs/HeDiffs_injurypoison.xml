@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+<HediffDef ParentName="InjuryBase">
+		<defName>Poison</defName>
+		<label>poisoned</label>
+		<description>poisoned</description>
+    <labelNoun>a poisoned wound</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <labelTendedWell>countered</labelTendedWell>
+        <labelTendedWellInner>neutralised</labelTendedWellInner>
+        <labelSolidTendedWell>cured</labelSolidTendedWell>
+      </li>
+      <li Class="HediffCompProperties_Infecter">
+        <infectionChance>0.05</infectionChance>
+      </li>	  
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>discoloured patch</permanentLabel>
+      </li>
+    </comps>
+		<injuryProps>
+      <painPerSeverity>0.032</painPerSeverity>
+      <canMerge>true</canMerge>
+			<destroyedLabel>Necrotised</destroyedLabel>
+			<destroyedOutLabel>Withered</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
+
+
+<HediffDef ParentName="InjuryBase">
+		<defName>Venom</defName>
+		<label>envenomed</label>
+		<description>envenomed</description>
+    <labelNoun>an envenomed wound</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <labelTendedWell>countered</labelTendedWell>
+        <labelTendedWellInner>neutralised</labelTendedWellInner>
+        <labelSolidTendedWell>cured</labelSolidTendedWell>
+      </li>
+      <li Class="HediffCompProperties_Infecter">
+        <infectionChance>0.05</infectionChance>
+      </li>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>discoloured patch</permanentLabel>
+      </li>
+    </comps>
+		<injuryProps>
+      <painPerSeverity>0.005</painPerSeverity>
+      <canMerge>true</canMerge>
+			<destroyedLabel>Necrotised</destroyedLabel>
+			<destroyedOutLabel>Withered</destroyedOutLabel>
+
+		</injuryProps>
+
+	<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.12</offset>
+					</li>								
+				</capMods>
+			</li>
+		</stages>
+
+	</HediffDef>
+
+
+<HediffDef ParentName="InjuryBase">
+		<defName>Toxin</defName>
+		<label>toxin</label>
+		<description>toxin</description>
+    <labelNoun>a toxic wound</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <labelTendedWell>countered</labelTendedWell>
+        <labelTendedWellInner>neutralised</labelTendedWellInner>
+        <labelSolidTendedWell>cured</labelSolidTendedWell>
+      </li>
+      <li Class="HediffCompProperties_Infecter">
+        <infectionChance>0.05</infectionChance>
+      </li>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>discoloured patch</permanentLabel>
+      </li>
+    </comps>
+		<injuryProps>
+      <painPerSeverity>0.005</painPerSeverity>
+      <canMerge>true</canMerge>
+			<destroyedLabel>Necrotised</destroyedLabel>
+			<destroyedOutLabel>Withered</destroyedOutLabel>
+		</injuryProps>
+
+
+	<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.04</offset>
+					</li>								
+				</capMods>
+			</li>
+		</stages>
+
+	</HediffDef>
+
+
+
+
+</Defs>

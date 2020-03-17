@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs> 
+
+
+
+ <!--=====================================================================-->
+  <!--=============================== leeches ================================-->
+  <!--=====================================================================-->
+
+
+							<!-- leech -->
+
+
+<ThingDef ParentName="OrganicProductBase">
+    <defName>I_EMLeech</defName>
+    <label>claretous leech</label>
+    <description>Originally bred to resist most common diseases, the claretous leech now thrives in undisturbed pools and are useful for their blood sucking - improving ones ability to fend off disease and to numb pain.</description>
+    <graphicData>
+      <texPath>Things/Item/leech</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+
+<thingCategories>
+      <li>EM_Insects</li>
+    </thingCategories>
+
+	 <ingestible>
+      <foodType>AnimalProduct</foodType>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <tasteThought>AteRawFood</tasteThought>
+<preferability>DesperateOnly</preferability>
+    </ingestible>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <Nutrition>0.01</Nutrition>
+      <MaxHitPoints>20</MaxHitPoints>
+      <MarketValue>1</MarketValue>
+      <Mass>0.025</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>3</DeteriorationRate>
+    </statBases>
+    <stuffProps>
+          <commonality>0.15</commonality>
+      <color>(208,255,197)</color>
+    </stuffProps>
+
+<comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>10</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+        <disableIfHatcher>true</disableIfHatcher>
+      </li>
+    </comps>
+  </ThingDef>
+
+
+
+<!-- bandage -->
+
+
+					
+
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>I_EMSBandage</defName>
+    <label>simple bandage</label>
+    <description>Simple cloth bandage, useful for holding things against the body and not much else.</description>
+    <graphicData>
+      <texPath>Things/Item/bandage</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>100</stackLimit>
+
+
+   <costStuffCount>10</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+
+	<recipeMaker>
+	<researchPrerequisite>EM_SpiLee</researchPrerequisite>
+			<recipeUsers>
+        <li>CraftingSpot</li>
+	<li>DrugLab</li>
+	
+      </recipeUsers>
+			<workSpeedStat></workSpeedStat>
+			<workSkill></workSkill>
+    </recipeMaker>
+
+
+
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>21</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>1.0</Flammability>
+			<DeteriorationRate>2.0</DeteriorationRate>
+		</statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+
+
+						
+
+
+</Defs>

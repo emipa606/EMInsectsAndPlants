@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Defs>
+
+	
+
+<RecipeDef Abstract="True" Name="EMGrubsBase">
+		
+	<effectWorking>Cook</effectWorking>
+		
+	<soundWorking>Recipe_CookMeal</soundWorking>
+		
+	<workSpeedStat></workSpeedStat>
+		
+	<workSkill>Crafting</workSkill>
+		
+	<workSkillLearnFactor>0</workSkillLearnFactor>
+		
+	<workerClass>Recipe_InstallImplant</workerClass>
+	
+	
+	
+
+</RecipeDef>
+
+
+
+
+<!-- grubs -->
+
+
+<RecipeDef ParentName="EMGrubsBase">
+		
+<defName>MakeEMFWGrub</defName>
+		
+<label>forage for grubs</label>
+		
+<description>Gently recover a live featherwing grub from the enclosure. They eat wood and can be harvested for their silk.</description>
+		
+		
+<jobString>foraging for grubs</jobString>
+		
+<workAmount>300</workAmount>
+		
+
+
+<ingredients>
+			
+		<li>
+				
+			<filter>	
+				<thingDefs>
+				
+					<li>WoodLog</li>
+	
+				</thingDefs>
+			
+			</filter>
+	
+			<count>2</count>
+			
+		</li>
+			
+</ingredients>
+		
+
+
+
+<products>
+			
+		<EM_FWGrubFertilized>1</EM_FWGrubFertilized>		
+</products>
+
+
+
+
+<fixedIngredientFilter>
+			
+			<thingDefs>
+						
+				<li>WoodLog</li>
+	
+			</thingDefs>
+		
+							
+</fixedIngredientFilter>
+	
+
+<researchPrerequisite>EM_Grubs</researchPrerequisite>
+<recipeUsers>
+			
+		<li>ForagingSpot</li>
+		
+	</recipeUsers>
+	
+
+</RecipeDef>
+
+
+
+
+
+
+
+
+<!-- cocoons -->
+
+
+<RecipeDef ParentName="EMGrubsBase">
+		
+<defName>MakeEMFWCocoon</defName>
+		
+<label>recover cocoon</label>
+		
+<description>Recover useable material from the discarded cocoons of featherwing grubs.</description>
+		
+		
+<jobString>recovering material</jobString>
+		
+<workAmount>900</workAmount>
+		
+
+
+<ingredients>
+			
+		<li>
+				
+			<filter>	
+				<thingDefs>
+				
+					<li>EM_FWGrubFertilized</li>
+	
+				</thingDefs>
+			
+			</filter>
+	
+			<count>8</count>
+			
+		</li>
+	
+		
+</ingredients>
+		
+
+
+
+<products>
+			
+		<I_EMCocoon>8</I_EMCocoon>		
+</products>
+
+
+
+
+<fixedIngredientFilter>
+			
+			<thingDefs>
+				
+				<li>EM_FWGrubFertilized</li>
+					
+			</thingDefs>
+		
+							
+</fixedIngredientFilter>
+	
+<researchPrerequisite>EM_Grubs</researchPrerequisite>
+	<recipeUsers>
+			
+		<li>InsectLoom</li>
+		
+	</recipeUsers>
+
+
+</RecipeDef>
+
+
+
+
+
+
+<!-- silk -->
+
+
+<RecipeDef ParentName="EMGrubsBase">
+		
+<defName>MakeEMFWSilk</defName>
+		
+<label>make cocoon silk</label>
+		
+<description>Spin featherwing cocoons into silk.</description>
+		
+		
+<jobString>recovering material</jobString>
+		
+<workAmount>100</workAmount>
+		
+
+
+<ingredients>
+			
+		<li>
+				
+			<filter>	
+				<thingDefs>
+				
+					<li>I_EMCocoon</li>
+	
+				</thingDefs>
+			
+			</filter>
+	
+			<count>8</count>
+			
+		</li>
+	
+			
+</ingredients>
+		
+
+
+
+<products>
+			
+		<I_EMSilk>8</I_EMSilk>		
+</products>
+
+
+
+
+<fixedIngredientFilter>
+			
+			<thingDefs>
+				
+				<li>I_EMCocoon</li>
+					
+			</thingDefs>
+		
+							
+</fixedIngredientFilter>
+	
+<researchPrerequisite>EM_Grubs</researchPrerequisite>
+<recipeUsers>
+			
+		<li>InsectLoom</li>
+		
+	</recipeUsers>
+
+
+</RecipeDef>
+
+
+
+
+
+
+<!-- rope -->
+
+
+<RecipeDef ParentName="EMGrubsBase">
+		
+<defName>MakeEMFWRope</defName>
+		
+<label>make cocoon rope</label>
+		
+<description>Spin featherwing cocoons into rope.</description>
+		
+		
+<jobString>weaving rope</jobString>
+		
+<workAmount>900</workAmount>
+		
+
+
+<ingredients>
+			
+		<li>
+				
+			<filter>	
+				<thingDefs>
+				
+					<li>I_EMCocoon</li>
+	
+				</thingDefs>
+			
+			</filter>
+	
+			<count>12</count>
+			
+		</li>
+	
+		
+				
+</ingredients>
+		
+
+
+
+<products>
+			
+		<I_EMRope>1</I_EMRope>		
+</products>
+
+
+
+
+<fixedIngredientFilter>
+			
+			<thingDefs>
+				
+				<li>I_EMCocoon</li>
+					
+			</thingDefs>
+		
+							
+</fixedIngredientFilter>
+	
+<researchPrerequisite>EM_Grubs</researchPrerequisite>
+<recipeUsers>
+			
+		<li>InsectLoom</li>
+		
+	</recipeUsers>
+
+
+</RecipeDef>
+
+
+
+
+<!-- mask -->
+
+
+<RecipeDef ParentName="EMGrubsBase">
+		
+<defName>MakeEMSpiderMask</defName>
+		
+<label>make megascarab mask</label>
+		
+<description>Craft a terrifying megascarab mask out of cocoon silk.</description>
+		
+		
+<jobString>cafting megascarab mask</jobString>
+		
+<workAmount>5000</workAmount>
+		
+
+
+<ingredients>
+			
+		<li>
+				
+			<filter>	
+				<thingDefs>
+				
+					<li>I_EMSilk</li>
+	
+				</thingDefs>
+			
+			</filter>
+	
+			<count>100</count>
+			
+		</li>
+	
+		<li>
+				
+			<filter>	
+				<thingDefs>
+				
+					<li>WoodLog</li>
+	
+				</thingDefs>
+			
+			</filter>
+	
+			<count>15</count>
+			
+		</li>
+	
+		
+				
+</ingredients>
+		
+
+
+
+<products>
+			
+		<I_EMSpiderMask>1</I_EMSpiderMask>		
+</products>
+
+
+
+
+<fixedIngredientFilter>
+			
+			<thingDefs>
+				
+				<li>I_EMSilk</li>
+					
+							
+				<li>WoodLog</li>
+					
+			</thingDefs>
+	
+							
+</fixedIngredientFilter>
+	
+<researchPrerequisite>EM_Grubs</researchPrerequisite>
+<recipeUsers>
+			
+		<li>InsectLoom</li>
+
+		<li>CraftingSpot</li>		
+	</recipeUsers>
+
+
+</RecipeDef>
+
+
+
+
+
+</Defs>
