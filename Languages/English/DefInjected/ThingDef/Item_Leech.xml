@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- leech -->
+
+  <I_EMLeech.label>claretous leech</I_EMLeech.label>
+  <I_EMLeech.description>Originally bred to resist most common diseases, the claretous leech now thrives in undisturbed pools and are useful for their blood sucking - improving ones ability to fend off disease and to numb pain.</I_EMLeech.description>
+
+
+  <!-- bandage -->
+
+  <I_EMSBandage.label>simple bandage</I_EMSBandage.label>
+  <I_EMSBandage.description>Simple cloth bandage, useful for holding things against the body and not much else.</I_EMSBandage.description>
+
+
+</LanguageData>

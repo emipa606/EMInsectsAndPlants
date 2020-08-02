@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <DamageDef ParentName="CutBase">
     <defName>PCut</defName>
     <label>poisoned</label>
@@ -23,5 +22,4 @@
     </cutExtraTargetsCurve>
     <cutCleaveBonus>1.4</cutCleaveBonus>
   </DamageDef>
-
 </Defs>

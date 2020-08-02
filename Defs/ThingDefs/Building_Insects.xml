@@ -1,251 +1,161 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-
-
-<ThingDef Name="EM_BuildingBase" Abstract="True">
-		
-<category>Building</category>
-		
-<thingClass>Building</thingClass>
-		
-<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-		
-<selectable>true</selectable>
-		
-<drawerType>MapMeshAndRealTime</drawerType>
-		
-<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-		
-<repairEffect>Repair</repairEffect>
-		
-<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		
-<filthLeaving>Filth_RubbleBuilding</filthLeaving>
-		
-<statBases>
-			
-	<SellPriceFactor>0.50</SellPriceFactor>
-		
-</statBases>
-	
-</ThingDef>
-
-
-
-						<!-- land -->
-
-<ThingDef ParentName="EM_BuildingBase">
-		<defName>ForagingSpot</defName>
-		<label>insect enclosure</label>
-		<thingClass>Building_WorkTable</thingClass>
-		<description>This enclosure can house all sorts of insects, they can be coaxed out with different bait.</description>
-		<graphicData>
-			<texPath>Things/Building/forage</texPath>
-			
-			<graphicClass>Graphic_Single</graphicClass>
-			
-			<drawSize>(5,2)</drawSize>
-
-		</graphicData>
-		<costList>
-			<WoodLog>50</WoodLog>					
-		</costList>
-		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>0.5</fillPercent>
-		<statBases>
-			<WorkToBuild>400</WorkToBuild>
-		</statBases>
-		<useHitPoints>False</useHitPoints>
-	
-		<size>(5,2)</size>
-		<designationCategory>Production</designationCategory>
-		<passability>PassThroughOnly</passability>
-		<pathCost>60</pathCost>
-		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-		<surfaceType>Item</surfaceType>
-
-
-		<researchPrerequisites><li>EM_Grubs</li></researchPrerequisites>
-	
-
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
-
-
-<comps>
-			
-	<li Class="CompProperties_AffectedByFacilities">
-				
-		<linkableFacilities>
-					
-			<li>ToolCabinet</li>
-					
-				
-		</linkableFacilities>
-			
-	</li>
-		
-</comps>
-
-
-		
-
-<building>
-			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-</building>
-		<constructEffect>ConstructMetal</constructEffect>
-		
-		<placeWorkers>
-			<li>PlaceWorker_ShowFacilitiesConnections</li>
-		</placeWorkers>
-	</ThingDef>
-
-
-
-							<!-- water -->
-
-<ThingDef ParentName="EM_BuildingBase">
-		<defName>LeechSpot</defName>
-		<label>leech pool</label>
-		<thingClass>Building_WorkTable</thingClass>
-		<description>A shallow pool for leeches to live in.</description>
-		<graphicData>
-			<texPath>Things/Building/pool</texPath>
-			
-			<graphicClass>Graphic_Single</graphicClass>
-			
-			<drawSize>(1,2)</drawSize>
-
-		</graphicData>
-		<costList>
-			<WoodLog>25</WoodLog>					
-		</costList>
-		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>0.5</fillPercent>
-		<statBases>
-			<WorkToBuild>400</WorkToBuild>
-		</statBases>
-		<useHitPoints>False</useHitPoints>
-	
-		<size>(1,2)</size>
-		<designationCategory>Production</designationCategory>
-		<passability>PassThroughOnly</passability>
-		<pathCost>60</pathCost>
-		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-		<surfaceType>Item</surfaceType>
-
-<researchPrerequisites><li>EM_SpiLee</li></researchPrerequisites>
-
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
-
-
-<comps>
-			
-	<li Class="CompProperties_AffectedByFacilities">
-				
-		<linkableFacilities>
-					
-			<li>ToolCabinet</li>
-					
-				
-		</linkableFacilities>
-			
-	</li>
-		
-</comps>
-
-
-		
-
-<building>
-			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-</building>
-		<constructEffect>ConstructMetal</constructEffect>
-		
-		<placeWorkers>
-			<li>PlaceWorker_ShowFacilitiesConnections</li>
-		</placeWorkers>
-	</ThingDef>
-
-
-
-
-
-						<!-- crafting silk -->
-
-<ThingDef ParentName="EM_BuildingBase">
-		<defName>InsectLoom</defName>
-		<label>cocoon silk loom</label>
-		<thingClass>Building_WorkTable</thingClass>
-		<description>A simple workstation used to turn featherwing cocoons into useable silk.</description>
-		<graphicData>
-			<texPath>Things/Building/loom</texPath>
-			
-			<graphicClass>Graphic_Single</graphicClass>
-			
-			<drawSize>(3,1)</drawSize>
-
-		</graphicData>
-		<costList>
-			<WoodLog>30</WoodLog>					
-		</costList>
-		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>0.5</fillPercent>
-		<statBases>
-			<WorkToBuild>400</WorkToBuild>
-		</statBases>
-		<useHitPoints>False</useHitPoints>
-	
-		<size>(3,1)</size>
-		<designationCategory>Production</designationCategory>
-		<passability>PassThroughOnly</passability>
-		<pathCost>60</pathCost>
-		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-		<surfaceType>Item</surfaceType>
-
-<researchPrerequisites><li>EM_Grubs</li></researchPrerequisites>
-
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
-
-
-<comps>
-			
-	<li Class="CompProperties_AffectedByFacilities">
-				
-		<linkableFacilities>
-					
-			<li>ToolCabinet</li>
-					
-				
-		</linkableFacilities>
-			
-	</li>
-		
-</comps>
-
-
-		
-
-<building>
-			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-</building>
-		<constructEffect>ConstructMetal</constructEffect>
-		
-		<placeWorkers>
-			<li>PlaceWorker_ShowFacilitiesConnections</li>
-		</placeWorkers>
-	</ThingDef>
-
-
+  <ThingDef Name="EM_BuildingBase" Abstract="True">
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+    <statBases>
+      <SellPriceFactor>0.50</SellPriceFactor>
+    </statBases>
+  </ThingDef>
+  <!-- land -->
+  <ThingDef ParentName="EM_BuildingBase">
+    <defName>ForagingSpot</defName>
+    <label>insect enclosure</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>This enclosure can house all sorts of insects, they can be coaxed out with different bait.</description>
+    <graphicData>
+      <texPath>Things/Building/forage</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,2)</drawSize>
+    </graphicData>
+    <costList>
+      <WoodLog>50</WoodLog>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <statBases>
+      <WorkToBuild>400</WorkToBuild>
+    </statBases>
+    <useHitPoints>False</useHitPoints>
+    <size>(5,2)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>60</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <researchPrerequisites>
+      <li>EM_Grubs</li>
+    </researchPrerequisites>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <constructEffect>ConstructMetal</constructEffect>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+  <!-- water -->
+  <ThingDef ParentName="EM_BuildingBase">
+    <defName>LeechSpot</defName>
+    <label>leech pool</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>A shallow pool for leeches to live in.</description>
+    <graphicData>
+      <texPath>Things/Building/pool</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,2)</drawSize>
+    </graphicData>
+    <costList>
+      <WoodLog>25</WoodLog>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <statBases>
+      <WorkToBuild>400</WorkToBuild>
+    </statBases>
+    <useHitPoints>False</useHitPoints>
+    <size>(1,2)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>60</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <researchPrerequisites>
+      <li>EM_SpiLee</li>
+    </researchPrerequisites>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <constructEffect>ConstructMetal</constructEffect>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+  <!-- crafting silk -->
+  <ThingDef ParentName="EM_BuildingBase">
+    <defName>InsectLoom</defName>
+    <label>cocoon silk loom</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>A simple workstation used to turn featherwing cocoons into useable silk.</description>
+    <graphicData>
+      <texPath>Things/Building/loom</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,1)</drawSize>
+    </graphicData>
+    <costList>
+      <WoodLog>30</WoodLog>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <statBases>
+      <WorkToBuild>400</WorkToBuild>
+    </statBases>
+    <useHitPoints>False</useHitPoints>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>60</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <researchPrerequisites>
+      <li>EM_Grubs</li>
+    </researchPrerequisites>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <constructEffect>ConstructMetal</constructEffect>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
 </Defs>
-

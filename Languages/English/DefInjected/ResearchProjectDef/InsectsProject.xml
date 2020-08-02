@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EM_Grubs.label>Basic Insect Husbandry</EM_Grubs.label>
+  <EM_Grubs.description>Craft an insect inclosure and raise grubs that can be farmed for their cocoons. Silk and rope can be crafted at the silk loom.</EM_Grubs.description>
+
+  <EM_BeeAnt.label>Advanced Insect Husbandry</EM_BeeAnt.label>
+  <EM_BeeAnt.description>Now both beetles and ants can be farmed from an inclosure. They can be crafted into powerful drugs.</EM_BeeAnt.description>
+
+  <EM_SpiLee.label>Exotic Insect Husbandry</EM_SpiLee.label>
+  <EM_SpiLee.description>Plant creeping willows that can be harvested for the spiders that nest in them and turned into a protein source. Leeches can be harvested from a leech pool and have powerful restorative properties.</EM_SpiLee.description>
+
+  <EM_BloD.label>Blowdarts</EM_BloD.label>
+  <EM_BloD.description>Craft blowdarts that are tipped with noxious substances adept at causing pain, numbness, and death.</EM_BloD.description>
+
+
+</LanguageData>

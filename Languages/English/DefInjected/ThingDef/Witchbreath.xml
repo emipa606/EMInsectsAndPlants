@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EM_witchbreath.label>witchbreath tincture</EM_witchbreath.label>
+  <EM_witchbreath.description>Potent toxin refind from the indigenous witch beetle. Users are propelled into a near-catatonic trance-state of euphoria for several hours, rarely addictive.</EM_witchbreath.description>
+  <EM_witchbreath.ingestible.ingestCommandString>Drink {0}</EM_witchbreath.ingestible.ingestCommandString>
+  <EM_witchbreath.ingestible.ingestReportString>Drinking {0}.</EM_witchbreath.ingestible.ingestReportString>
+
+
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- beetle -->
+
+  <MakeEMBeetle.label>forage for beetles</MakeEMBeetle.label>
+  <MakeEMBeetle.description>Recover a witchbreath beetle from the enclosure. These beetles subsist entirely on raw meat and can be refined into an intoxicating drug.</MakeEMBeetle.description>
+  <MakeEMBeetle.jobString>foraging for beetles</MakeEMBeetle.jobString>
+
+
+</LanguageData>

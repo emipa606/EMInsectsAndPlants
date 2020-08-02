@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- blowdarts -->
+
+  <EM_BlowdartPain.label>painful blowdart</EM_BlowdartPain.label>
+  <EM_BlowdartBreath.label>lethal blowdart</EM_BlowdartBreath.label>
+  <EM_BlowdartNumb.label>numbing blowdart</EM_BlowdartNumb.label>
+
+  <EM_BlowgunPain.label>painful blowgun</EM_BlowgunPain.label>
+  <EM_BlowgunPain.description>The same toxin that produces stimulation when ingested burns intensely when it enters the bloodstream. Causes a lot of pain.</EM_BlowgunPain.description>
+
+  <EM_BlowgunBreath.label>lethal blowgun</EM_BlowgunBreath.label>
+  <EM_BlowgunBreath.description>Toxins that coat these darts depress breathing - can lead to lethal buildup extremely quickly.</EM_BlowgunBreath.description>
+
+  <EM_BlowgunNumb.label>numbing blowgun</EM_BlowgunNumb.label>
+  <EM_BlowgunNumb.description>Numbs the target with a combination toxin, producing unconsciousness. Potentially lethal in high enough doses.</EM_BlowgunNumb.description>
+
+
+</LanguageData>

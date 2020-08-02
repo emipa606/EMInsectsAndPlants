@@ -1,102 +1,42 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	
-
-<RecipeDef Abstract="True" Name="EMAntBase">
-		
-	<effectWorking>Cook</effectWorking>
-		
-	<soundWorking>Recipe_CookMeal</soundWorking>
-		
-	<workSpeedStat></workSpeedStat>
-		
-	<workSkill>Crafting</workSkill>
-		
-	<workSkillLearnFactor>0</workSkillLearnFactor>
-		
-	<workerClass>Recipe_InstallImplant</workerClass>
-	
-	
-	
-
-</RecipeDef>
-
-
-
-
-<!-- ant -->
-
-
-<RecipeDef ParentName="EMBeetleBase">
-		
-<defName>MakeEMAnt</defName>
-		
-<label>forage for ants</label>
-		
-<description>Recover an autovim ant from the enclosure. These ants eat plant matter and can be refined into a stimulating drug.</description>
-		
-		
-<jobString>foraging for beetles</jobString>
-		
-<workAmount>100</workAmount>
-		
-
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<categories>
-						<li>PlantFoodRaw</li>
-				</categories>			
-			</filter>
-	
-			<count>2</count>
-			
-		</li>
-	
-		
-</ingredients>
-		
-
-
-
-<products>
-			
-		<I_EMAnt>1</I_EMAnt>		
-</products>
-
-
-
-
-<fixedIngredientFilter>
-			
-			<categories>
-				<li>PlantFoodRaw</li>
-			</categories>
-							
-</fixedIngredientFilter>
-	
-
-<researchPrerequisite>EM_BeeAnt</researchPrerequisite>
-<recipeUsers>
-			
-		<li>ForagingSpot</li>
-		
-	</recipeUsers>
-	
-
-</RecipeDef>
-
-
-
-
-
-
-
-
+  <RecipeDef Abstract="True" Name="EMAntBase">
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workSpeedStat>
+    </workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <workSkillLearnFactor>0</workSkillLearnFactor>
+    <workerClass>Recipe_InstallImplant</workerClass>
+  </RecipeDef>
+  <!-- ant -->
+  <RecipeDef ParentName="EMBeetleBase">
+    <defName>MakeEMAnt</defName>
+    <label>forage for ants</label>
+    <description>Recover an autovim ant from the enclosure. These ants eat plant matter and can be refined into a stimulating drug.</description>
+    <jobString>foraging for beetles</jobString>
+    <workAmount>100</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMAnt>1</I_EMAnt>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>PlantFoodRaw</li>
+      </categories>
+    </fixedIngredientFilter>
+    <researchPrerequisite>EM_BeeAnt</researchPrerequisite>
+    <recipeUsers>
+      <li>ForagingSpot</li>
+    </recipeUsers>
+  </RecipeDef>
 </Defs>

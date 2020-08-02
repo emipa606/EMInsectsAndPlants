@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EM_LeechPain.label>leech painkiller</EM_LeechPain.label>
+  <EM_LeechPain.description>Leeches that have been specially fed to increase their pain-killing effects. Slightly depresses breathing.</EM_LeechPain.description>
+  <EM_LeechPain.ingestible.ingestCommandString>Apply {0}</EM_LeechPain.ingestible.ingestCommandString>
+  <EM_LeechPain.ingestible.ingestReportString>Applying {0}.</EM_LeechPain.ingestible.ingestReportString>
+
+
+</LanguageData>

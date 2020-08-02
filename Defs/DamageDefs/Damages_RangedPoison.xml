@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <DamageDef ParentName="CutBase">
     <defName>PArrowPain</defName>
     <label>poisoned</label>
@@ -14,7 +13,6 @@
     <impactSoundType>Slice</impactSoundType>
     <armorCategory>Sharp</armorCategory>
   </DamageDef>
-
   <DamageDef ParentName="CutBase">
     <defName>PArrowBreath</defName>
     <label>envenomed</label>
@@ -28,7 +26,6 @@
     <impactSoundType>Slice</impactSoundType>
     <armorCategory>Sharp</armorCategory>
   </DamageDef>
-
   <DamageDef ParentName="CutBase">
     <defName>PArrowNumb</defName>
     <label>toxin</label>
@@ -42,5 +39,4 @@
     <impactSoundType>Slice</impactSoundType>
     <armorCategory>Sharp</armorCategory>
   </DamageDef>
-
 </Defs>

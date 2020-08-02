@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef ParentName="MakeableDrugBase">
     <defName>EM_witchbreath</defName>
     <label>witchbreath tincture</label>
@@ -10,13 +9,11 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <rotatable>false</rotatable>
-
-
     <statBases>
       <WorkToMake>450</WorkToMake>
       <MarketValue>11</MarketValue>
       <Mass>0.05</Mass>
-			<DeteriorationRate>6</DeteriorationRate>
+      <DeteriorationRate>6</DeteriorationRate>
     </statBases>
     <techLevel>Neolithic</techLevel>
     <ingestible>
@@ -28,7 +25,7 @@
       <drugCategory>Social</drugCategory>
       <ingestSound>Ingest_Smoke</ingestSound>
       <ingestEffect>Smoke_Joint</ingestEffect>
-			<ingestEffectEat>EatVegetarian</ingestEffectEat>
+      <ingestEffectEat>EatVegetarian</ingestEffectEat>
       <ingestHoldOffsetStanding>
         <northDefault>
           <offset>(0.27,0,0.08)</offset>
@@ -63,27 +60,24 @@
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>SmokeleafTolerance</hediffDef>
           <severity>0.030</severity>
-					<divideByBodySize>true</divideByBodySize>
-				</li>
+          <divideByBodySize>true</divideByBodySize>
+        </li>
       </outcomeDoers>
     </ingestible>
-
-
     <recipeMaker>
-	<researchPrerequisite>EM_BeeAnt</researchPrerequisite>
-			<recipeUsers>
+      <researchPrerequisite>EM_BeeAnt</researchPrerequisite>
+      <recipeUsers>
         <li>CraftingSpot</li>
-	<li>DrugLab</li>
-	
+        <li>DrugLab</li>
       </recipeUsers>
-			<workSpeedStat></workSpeedStat>
-			<workSkill></workSkill>
+      <workSpeedStat>
+      </workSpeedStat>
+      <workSkill>
+      </workSkill>
     </recipeMaker>
-
     <costList>
       <I_EMBeetle>4</I_EMBeetle>
     </costList>
-
     <comps>
       <li Class="CompProperties_Drug">
         <chemical>EM_WitchbreathCh</chemical>
@@ -95,7 +89,6 @@
       </li>
     </comps>
   </ThingDef>
-
   <HediffDef>
     <defName>EM_witchbreathhigh</defName>
     <hediffClass>HediffWithComps</hediffClass>
@@ -111,19 +104,18 @@
         <severityPerDay>-0.5</severityPerDay>
       </li>
     </comps>
-      <stages>
-        <li>
-          <painOffset>-0.8</painOffset>
-          <capMods>
-            <li>
-              <capacity>Consciousness</capacity>
-              <setMax>0.15</setMax>
-            </li>
-          </capMods>
-        </li>
-      </stages>
+    <stages>
+      <li>
+        <painOffset>-0.8</painOffset>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.15</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
   </HediffDef>
-  
   <ThoughtDef>
     <defName>EM_witchbreathhigh</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
@@ -137,17 +129,14 @@
       </li>
     </stages>
   </ThoughtDef>
-
   <!-- Smokeleaf addiction -->
-
   <ChemicalDef>
     <defName>EM_WitchbreathCh</defName>
     <label>Witchbreath</label>
     <addictionHediff>SmokeleafAddiction</addictionHediff>
     <toleranceHediff>SmokeleafTolerance</toleranceHediff>
-		<onGeneratedAddictedToleranceChance>0.8</onGeneratedAddictedToleranceChance>
-	</ChemicalDef>
-
+    <onGeneratedAddictedToleranceChance>0.8</onGeneratedAddictedToleranceChance>
+  </ChemicalDef>
   <NeedDef ParentName="DrugAddictionNeedBase">
     <defName>Chemical_Smokeleaf</defName>
     <needClass>Need_Chemical</needClass>
@@ -155,7 +144,6 @@
     <description>Because of a developed Smokeleaf dependence, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
     <listPriority>25</listPriority>
   </NeedDef>
-  
   <HediffDef ParentName="DrugToleranceBase">
     <defName>SmokeleafTolerance</defName>
     <label>smokeleaf tolerance</label>
@@ -168,28 +156,27 @@
         <chemical>Smokeleaf</chemical>
       </li>
     </comps>
-		<hediffGivers>
-			<li Class="HediffGiver_RandomDrugEffect">
-				<hediff>Asthma</hediff>
-				<baseMtbDays>180</baseMtbDays>
-				<minSeverity>0.50</minSeverity>
-				<partsToAffect>
-					<li>Lung</li>
-				</partsToAffect>
-				<countToAffect>2</countToAffect>
-			</li>
-			<li Class="HediffGiver_RandomDrugEffect">
-				<hediff>Carcinoma</hediff>
-				<baseMtbDays>180</baseMtbDays>
-				<minSeverity>0.40</minSeverity>
-				<partsToAffect>
-					<li>Lung</li>
-				</partsToAffect>
-				<countToAffect>1</countToAffect>
-			</li>
-		</hediffGivers>
-	</HediffDef>
-
+    <hediffGivers>
+      <li Class="HediffGiver_RandomDrugEffect">
+        <hediff>Asthma</hediff>
+        <baseMtbDays>180</baseMtbDays>
+        <minSeverity>0.50</minSeverity>
+        <partsToAffect>
+          <li>Lung</li>
+        </partsToAffect>
+        <countToAffect>2</countToAffect>
+      </li>
+      <li Class="HediffGiver_RandomDrugEffect">
+        <hediff>Carcinoma</hediff>
+        <baseMtbDays>180</baseMtbDays>
+        <minSeverity>0.40</minSeverity>
+        <partsToAffect>
+          <li>Lung</li>
+        </partsToAffect>
+        <countToAffect>1</countToAffect>
+      </li>
+    </hediffGivers>
+  </HediffDef>
   <HediffDef ParentName="AddictionBase">
     <defName>SmokeleafAddiction</defName>
     <hediffClass>Hediff_Addiction</hediffClass>
@@ -216,20 +203,19 @@
             <offset>-0.15</offset>
           </li>
         </capMods>
-				<mentalStateGivers>
-					<li>
-						<mentalState>Binging_Food</mentalState>
-						<mtbDays>30</mtbDays>
-					</li>
-					<li>
-						<mentalState>Binging_DrugExtreme</mentalState>
-						<mtbDays>50</mtbDays>
-					</li>
-				</mentalStateGivers>
+        <mentalStateGivers>
+          <li>
+            <mentalState>Binging_Food</mentalState>
+            <mtbDays>30</mtbDays>
+          </li>
+          <li>
+            <mentalState>Binging_DrugExtreme</mentalState>
+            <mtbDays>50</mtbDays>
+          </li>
+        </mentalStateGivers>
       </li>
     </stages>
   </HediffDef>
-
   <ThoughtDef>
     <defName>SmokeleafWithdrawal</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
@@ -246,5 +232,4 @@
       </li>
     </stages>
   </ThoughtDef>
-
 </Defs>

@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-<!--
+  <!--
 <ThingDef ParentName="BaseMeleeWeapon_Sharp">
 		<defName>MeleeWeapon_ToxicShiv</defName>
 		<label>poisoned shiv</label>
@@ -55,13 +54,8 @@
   </ThingDef>
 
 -->
-
-
-
-
-<!-- blowdarts -->
-
-<ThingDef ParentName="BaseProjectileNeolithic">
+  <!-- blowdarts -->
+  <ThingDef ParentName="BaseProjectileNeolithic">
     <defName>EM_BlowdartPain</defName>
     <label>painful blowdart</label>
     <graphicData>
@@ -75,8 +69,7 @@
       <speed>60</speed>
     </projectile>
   </ThingDef>
-
-<ThingDef ParentName="BaseProjectileNeolithic">
+  <ThingDef ParentName="BaseProjectileNeolithic">
     <defName>EM_BlowdartBreath</defName>
     <label>lethal blowdart</label>
     <graphicData>
@@ -90,8 +83,7 @@
       <speed>60</speed>
     </projectile>
   </ThingDef>
-
-<ThingDef ParentName="BaseProjectileNeolithic">
+  <ThingDef ParentName="BaseProjectileNeolithic">
     <defName>EM_BlowdartNumb</defName>
     <label>numbing blowdart</label>
     <graphicData>
@@ -105,10 +97,6 @@
       <speed>60</speed>
     </projectile>
   </ThingDef>
-
-
-
-
   <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>EM_BlowgunPain</defName>
     <label>painful blowgun</label>
@@ -120,8 +108,8 @@
     <soundInteract>Bow_Small</soundInteract>
     <costList>
       <WoodLog>30</WoodLog>
-	<EM_AutovimBase>10</EM_AutovimBase>
-	<PsychoidLeaves>30</PsychoidLeaves>
+      <EM_AutovimBase>10</EM_AutovimBase>
+      <PsychoidLeaves>30</PsychoidLeaves>
     </costList>
     <statBases>
       <WorkToMake>9000</WorkToMake>
@@ -137,7 +125,7 @@
       <li>NeolithicRangedBasic</li>
     </weaponTags>
     <recipeMaker>
-	<researchPrerequisite>EM_BloD</researchPrerequisite>
+      <researchPrerequisite>EM_BloD</researchPrerequisite>
       <recipeUsers>
         <li>ElectricSmithy</li>
         <li>FueledSmithy</li>
@@ -165,8 +153,6 @@
       </li>
     </tools>
   </ThingDef>
-
-
   <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>EM_BlowgunBreath</defName>
     <label>lethal blowgun</label>
@@ -178,9 +164,9 @@
     <soundInteract>Bow_Small</soundInteract>
     <costList>
       <WoodLog>30</WoodLog>
-	<EM_witchbreath>5</EM_witchbreath>
-	<EM_AutovimBase>5</EM_AutovimBase>
-	<PsychoidLeaves>30</PsychoidLeaves>
+      <EM_witchbreath>5</EM_witchbreath>
+      <EM_AutovimBase>5</EM_AutovimBase>
+      <PsychoidLeaves>30</PsychoidLeaves>
     </costList>
     <statBases>
       <WorkToMake>9000</WorkToMake>
@@ -196,7 +182,7 @@
       <li>NeolithicRangedBasic</li>
     </weaponTags>
     <recipeMaker>
-	<researchPrerequisite>EM_BloD</researchPrerequisite>
+      <researchPrerequisite>EM_BloD</researchPrerequisite>
       <recipeUsers>
         <li>ElectricSmithy</li>
         <li>FueledSmithy</li>
@@ -224,8 +210,6 @@
       </li>
     </tools>
   </ThingDef>
-
-
   <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>EM_BlowgunNumb</defName>
     <label>numbing blowgun</label>
@@ -237,8 +221,8 @@
     <soundInteract>Bow_Small</soundInteract>
     <costList>
       <WoodLog>30</WoodLog>
-	<EM_witchbreath>10</EM_witchbreath>
-	<PsychoidLeaves>30</PsychoidLeaves>
+      <EM_witchbreath>10</EM_witchbreath>
+      <PsychoidLeaves>30</PsychoidLeaves>
     </costList>
     <statBases>
       <WorkToMake>9000</WorkToMake>
@@ -254,7 +238,7 @@
       <li>NeolithicRangedBasic</li>
     </weaponTags>
     <recipeMaker>
-	<researchPrerequisite>EM_BloD</researchPrerequisite>
+      <researchPrerequisite>EM_BloD</researchPrerequisite>
       <recipeUsers>
         <li>ElectricSmithy</li>
         <li>FueledSmithy</li>
@@ -282,5 +266,4 @@
       </li>
     </tools>
   </ThingDef>
-
 </Defs>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- grubs -->
+
+  <MakeEMFWGrub.label>forage for grubs</MakeEMFWGrub.label>
+  <MakeEMFWGrub.description>Gently recover a live featherwing grub from the enclosure. They eat wood and can be harvested for their silk.</MakeEMFWGrub.description>
+  <MakeEMFWGrub.jobString>foraging for grubs</MakeEMFWGrub.jobString>
+
+
+  <!-- cocoons -->
+
+  <MakeEMFWCocoon.label>recover cocoon</MakeEMFWCocoon.label>
+  <MakeEMFWCocoon.description>Recover useable material from the discarded cocoons of featherwing grubs.</MakeEMFWCocoon.description>
+  <MakeEMFWCocoon.jobString>recovering material</MakeEMFWCocoon.jobString>
+
+
+  <!-- silk -->
+
+  <MakeEMFWSilk.label>make cocoon silk</MakeEMFWSilk.label>
+  <MakeEMFWSilk.description>Spin featherwing cocoons into silk.</MakeEMFWSilk.description>
+  <MakeEMFWSilk.jobString>recovering material</MakeEMFWSilk.jobString>
+
+
+  <!-- rope -->
+
+  <MakeEMFWRope.label>make cocoon rope</MakeEMFWRope.label>
+  <MakeEMFWRope.description>Spin featherwing cocoons into rope.</MakeEMFWRope.description>
+  <MakeEMFWRope.jobString>weaving rope</MakeEMFWRope.jobString>
+
+
+  <!-- mask -->
+
+  <MakeEMSpiderMask.label>make megascarab mask</MakeEMSpiderMask.label>
+  <MakeEMSpiderMask.description>Craft a terrifying megascarab mask out of cocoon silk.</MakeEMSpiderMask.description>
+  <MakeEMSpiderMask.jobString>cafting megascarab mask</MakeEMSpiderMask.jobString>
+
+
+</LanguageData>

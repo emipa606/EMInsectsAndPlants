@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- featherwing -->
+
+  <EM_FWGrubUnfertilized.label>featherwing grub (dead)</EM_FWGrubUnfertilized.label>
+  <EM_FWGrubUnfertilized.description>Dead featherwing grub. They are very delicate and die once out of the ground if not housed in the correct environment. Can still be eaten for a little nutrition.</EM_FWGrubUnfertilized.description>
+
+  <EM_FWGrubFertilized.label>featherwing grub (larval)</EM_FWGrubFertilized.label>
+  <EM_FWGrubFertilized.description>A featherwing grub, if housed in the correct environment will mature in a matter of days into a featherwing moth, leaving behind a silk cocoon, in the wild the cocoons are eaten by the grub and are lost. Will die fairly quickly if left alone.</EM_FWGrubFertilized.description>
+
+
+  <!-- silk -->
+
+  <I_EMSilk.label>cocoon silk</I_EMSilk.label>
+  <I_EMSilk.description>Silk</I_EMSilk.description>
+
+
+  <!-- silk rope -->
+
+  <I_EMRope.label>cocoon rope</I_EMRope.label>
+  <I_EMRope.description>Tough rope made from the cocoons of featherwing grubs. Can only be made into short sections but handles repeated use well, as such makes a good choice for traps.</I_EMRope.description>
+
+
+  <!-- cocoon -->
+
+  <I_EMCocoon.label>featherwing cocoon</I_EMCocoon.label>
+  <I_EMCocoon.description>The discarded cocoon of a featherwing grub, made from a tough fibre that can be easily spun into a silk-like textile or rope.</I_EMCocoon.description>
+
+
+</LanguageData>

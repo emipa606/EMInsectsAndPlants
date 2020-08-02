@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PCut.label>poisoned</PCut.label>
+  <PCut.deathMessage>{0} has been lethally poisoned.</PCut.deathMessage>
+
+
+</LanguageData>

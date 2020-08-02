@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-<ThingDef ParentName="HatMakeableBase">
+  <ThingDef ParentName="HatMakeableBase">
     <defName>I_EMSpiderMask</defName>
     <label>megaspider mask</label>
     <description>A terrifying likeness of a megascarab. Horrible to look at but makes the wearer much more confident in their abilities.</description>
@@ -10,9 +9,9 @@
       <texPath>Things/Item/Apparel/InsectMask/SpiderMask</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-	<costList>
-		<WoodLog>50</WoodLog>
-	</costList>
+    <costList>
+      <WoodLog>50</WoodLog>
+    </costList>
     <statBases>
       <WorkToMake>5000</WorkToMake>
       <MaxHitPoints>100</MaxHitPoints>
@@ -21,9 +20,8 @@
       <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
     </statBases>
     <equippedStatOffsets>
-	    <PainShockThreshold>0.20</PainShockThreshold>
-	   <SocialImpact>-0.20</SocialImpact>
-		
+      <PainShockThreshold>0.20</PainShockThreshold>
+      <SocialImpact>-0.20</SocialImpact>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -48,11 +46,10 @@
       <soundWorking>Recipe_Sculpt</soundWorking>
       <recipeUsers>
         <li>CraftingSpot</li>
-		<li>HandTailoringBench</li>
-		<li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+        <li>ElectricTailoringBench</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
     </recipeMaker>
   </ThingDef>
-
 </Defs>

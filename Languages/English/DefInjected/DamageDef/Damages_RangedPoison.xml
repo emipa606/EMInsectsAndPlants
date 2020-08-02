@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PArrowPain.label>poisoned</PArrowPain.label>
+  <PArrowPain.deathMessage>{0} has been painfully poisoned.</PArrowPain.deathMessage>
+
+  <PArrowBreath.label>envenomed</PArrowBreath.label>
+  <PArrowBreath.deathMessage>{0} has been lethally poisoned.</PArrowBreath.deathMessage>
+
+  <PArrowNumb.label>toxin</PArrowNumb.label>
+  <PArrowNumb.deathMessage>{0} has been infected by numbing toxin.</PArrowNumb.deathMessage>
+
+
+</LanguageData>

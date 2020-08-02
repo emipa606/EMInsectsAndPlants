@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Fabricating -->
+
+  <DoBillsForaging.label>grub foraging</DoBillsForaging.label>
+  <DoBillsForaging.verb>searching</DoBillsForaging.verb>
+  <DoBillsForaging.gerund>searching</DoBillsForaging.gerund>
+
+  <DoBillsLeech.label>grub foraging</DoBillsLeech.label>
+  <DoBillsLeech.verb>searching</DoBillsLeech.verb>
+  <DoBillsLeech.gerund>searching</DoBillsLeech.gerund>
+
+  <DoBillsLoom.label>grub foraging</DoBillsLoom.label>
+  <DoBillsLoom.verb>spinning</DoBillsLoom.verb>
+  <DoBillsLoom.gerund>spinning</DoBillsLoom.gerund>
+
+
+</LanguageData>

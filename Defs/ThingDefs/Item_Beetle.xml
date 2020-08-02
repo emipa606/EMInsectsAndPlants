@@ -1,17 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs> 
-
-
-
- <!--=====================================================================-->
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--=====================================================================-->
   <!--=============================== beetles ================================-->
   <!--=====================================================================-->
-
-
-							<!-- beetle -->
-
-
-<ThingDef ParentName="OrganicProductBase">
+  <!-- beetle -->
+  <ThingDef ParentName="OrganicProductBase">
     <defName>I_EMBeetle</defName>
     <label>witchbreath beetle</label>
     <description>Beetle</description>
@@ -19,18 +12,15 @@
       <texPath>Things/Item/beetle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-
-
-<thingCategories>
+    <thingCategories>
       <li>EM_Insects</li>
     </thingCategories>
-
-	 <ingestible>
+    <ingestible>
       <foodType>AnimalProduct</foodType>
       <ingestEffect>EatMeat</ingestEffect>
       <ingestSound>RawMeat_Eat</ingestSound>
       <tasteThought>AteRawFood</tasteThought>
-<preferability>DesperateOnly</preferability>
+      <preferability>DesperateOnly</preferability>
     </ingestible>
     <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
@@ -41,8 +31,7 @@
       <Flammability>1.0</Flammability>
       <DeteriorationRate>3</DeteriorationRate>
     </statBases>
-    
-<comps>
+    <comps>
       <li Class="CompProperties_Rottable">
         <daysToRotStart>3</daysToRotStart>
         <rotDestroys>true</rotDestroys>
@@ -50,9 +39,4 @@
       </li>
     </comps>
   </ThingDef>
-
-
-						
-
-
 </Defs>

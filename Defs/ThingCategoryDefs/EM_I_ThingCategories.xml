@@ -1,14 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
- <ThingCategoryDef>
+  <ThingCategoryDef>
     <defName>EM_Insects</defName>
     <label>insects</label>
     <parent>Manufactured</parent>
     <iconPath>UI/Icons/ThingCategories/Manufactured</iconPath>
     <resourceReadoutRoot>true</resourceReadoutRoot>
   </ThingCategoryDef>
-
-
-
 </Defs>
