@@ -1,19 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <EM_witchbreathhigh.label>in a trance</EM_witchbreathhigh.label>
   <EM_witchbreathhigh.description>in a trance</EM_witchbreathhigh.description>
   <EM_witchbreathhigh.labelNoun>a trance</EM_witchbreathhigh.labelNoun>
-
-
   <!-- Smokeleaf addiction -->
-
   <SmokeleafTolerance.label>smokeleaf tolerance</SmokeleafTolerance.label>
   <SmokeleafTolerance.description>smokeleaf tolerance</SmokeleafTolerance.description>
-
   <SmokeleafAddiction.label>smokeleaf dependence</SmokeleafAddiction.label>
   <SmokeleafAddiction.description>smokeleaf dependence</SmokeleafAddiction.description>
   <SmokeleafAddiction.stages.1.label>withdrawal</SmokeleafAddiction.stages.1.label>
-
-
 </LanguageData>

@@ -1,19 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <EM_AutovimHigh.label>autovim stimulation</EM_AutovimHigh.label>
   <EM_AutovimHigh.description>autovim stimulation</EM_AutovimHigh.description>
   <EM_AutovimHigh.labelNoun>an autovim stimulation</EM_AutovimHigh.labelNoun>
-
-
   <!-- Smokeleaf addiction -->
-
   <EM_AutovimTol.label>autovim tolerance</EM_AutovimTol.label>
   <EM_AutovimTol.description>autovim tolerance</EM_AutovimTol.description>
-
   <EM_AutovimAdd.label>autovim dependence</EM_AutovimAdd.label>
   <EM_AutovimAdd.description>autovim dependence</EM_AutovimAdd.description>
   <EM_AutovimAdd.stages.1.label>withdrawal</EM_AutovimAdd.stages.1.label>
-
-
 </LanguageData>

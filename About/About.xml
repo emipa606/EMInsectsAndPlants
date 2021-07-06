@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>EM Insects And Plants (Continued)</name>
   <packageId>Mlie.EMInsectsAndPlants</packageId>
@@ -7,19 +7,25 @@
   <supportedVersions>
     <li>1.1</li>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>Update of Moshs mod for RimWorld 1.1
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Moshs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1341003138
 
-Support-chat:
-https://discord.gg/SuhwVpM
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
-Non-steam version:
-https://github.com/emipa606/EMInsectsAndPlants
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/EMInsectsAndPlants][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
 	
---- Original Description ---
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+
 Tired of your prey escaping into the jungles with only a bullet wound to show for it?
 Wonder why your colonists complain of hunger when the ground is teeming with life?
 
@@ -29,10 +35,23 @@ Harvest creepy crawlies for use in textiles, food, drugs, medicine, poisons...
 Ants, beetles, spiders and more await!
 
 
-This mod is intended to add a bit of depth to very early/tribal gameplay by offering some new drugs and much needed medicine, along with a new textile and meat food source.
+This mod is intended to add a bit of depth to very early/tribal gameplay by offering some new drugs and much needed medicine, along with a new textile and meat food source. 
 So grab your blowguns and let's go!
 
 
 If you like this then check out the other mods in the Early Man pack for tribal fun and frolicks!
-https://steamcommunity.com/sharedfiles/filedetails/?id=1342138383</description>
+https://steamcommunity.com/sharedfiles/filedetails/?id=1342138383
+
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+

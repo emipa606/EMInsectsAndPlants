@@ -1,31 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- land -->
-
   <ForagingSpot.label>insect enclosure</ForagingSpot.label>
   <ForagingSpot.description>This enclosure can house all sorts of insects, they can be coaxed out with different bait.</ForagingSpot.description>
   <ForagingSpot_Blueprint.label>insect enclosure (blueprint)</ForagingSpot_Blueprint.label>
   <ForagingSpot_Frame.label>insect enclosure (building)</ForagingSpot_Frame.label>
   <ForagingSpot_Frame.description>This enclosure can house all sorts of insects, they can be coaxed out with different bait.</ForagingSpot_Frame.description>
-
-
   <!-- water -->
-
   <LeechSpot.label>leech pool</LeechSpot.label>
   <LeechSpot.description>A shallow pool for leeches to live in.</LeechSpot.description>
   <LeechSpot_Blueprint.label>leech pool (blueprint)</LeechSpot_Blueprint.label>
   <LeechSpot_Frame.label>leech pool (building)</LeechSpot_Frame.label>
   <LeechSpot_Frame.description>A shallow pool for leeches to live in.</LeechSpot_Frame.description>
-
-
   <!-- crafting silk -->
-
   <InsectLoom.label>cocoon silk loom</InsectLoom.label>
   <InsectLoom.description>A simple workstation used to turn featherwing cocoons into useable silk.</InsectLoom.description>
   <InsectLoom_Blueprint.label>cocoon silk loom (blueprint)</InsectLoom_Blueprint.label>
   <InsectLoom_Frame.label>cocoon silk loom (building)</InsectLoom_Frame.label>
   <InsectLoom_Frame.description>A simple workstation used to turn featherwing cocoons into useable silk.</InsectLoom_Frame.description>
-
-
 </LanguageData>

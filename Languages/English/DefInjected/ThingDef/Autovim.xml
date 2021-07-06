@@ -1,10 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <EM_AutovimBase.label>autovim powder</EM_AutovimBase.label>
   <EM_AutovimBase.description>Mild stimulant made from the bodies of autovim ants. When ingested provides a slight energy boost. Easy to become addicted to but has very little in the way of withdrawal.</EM_AutovimBase.description>
   <EM_AutovimBase.ingestible.ingestCommandString>Take {0}</EM_AutovimBase.ingestible.ingestCommandString>
   <EM_AutovimBase.ingestible.ingestReportString>Taking {0}.</EM_AutovimBase.ingestible.ingestReportString>
-
-
 </LanguageData>

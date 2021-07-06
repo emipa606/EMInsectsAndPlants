@@ -1,11 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- ant -->
-
   <MakeEMAnt.label>forage for ants</MakeEMAnt.label>
   <MakeEMAnt.description>Recover an autovim ant from the enclosure. These ants eat plant matter and can be refined into a stimulating drug.</MakeEMAnt.description>
   <MakeEMAnt.jobString>foraging for beetles</MakeEMAnt.jobString>
-
-
 </LanguageData>
