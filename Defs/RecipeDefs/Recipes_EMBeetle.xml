@@ -7,7 +7,6 @@
     </workSpeedStat>
     <workSkill>Crafting</workSkill>
     <workSkillLearnFactor>0</workSkillLearnFactor>
-    <workerClass>Recipe_InstallImplant</workerClass>
   </RecipeDef>
   <!-- beetle -->
   <RecipeDef ParentName="EMBeetleBase">
