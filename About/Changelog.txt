@@ -1,5 +1,8 @@
 # Changelog for EMInsectsAndPlants
 
+1.5.0 - Updated for 1.5
+
+
 1.4.2 - Fixed recipes not showing
 
 
