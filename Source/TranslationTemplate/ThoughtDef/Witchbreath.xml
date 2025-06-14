@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: in a trance -->
+  <EM_witchbreathhigh.stages.in_a_trance.label>in a trance</EM_witchbreathhigh.stages.in_a_trance.label>
+  <!-- EN: (I am in another world...) -->
+  <EM_witchbreathhigh.stages.in_a_trance.description>(I am in another world...)</EM_witchbreathhigh.stages.in_a_trance.description>
+  <!-- EN: Smokeleaf withdrawal -->
+  <SmokeleafWithdrawal.stages.Smokeleaf_withdrawal.label>Smokeleaf withdrawal</SmokeleafWithdrawal.stages.Smokeleaf_withdrawal.label>
+  <!-- EN: I really wish I could smoke. -->
+  <SmokeleafWithdrawal.stages.Smokeleaf_withdrawal.description>I really wish I could smoke.</SmokeleafWithdrawal.stages.Smokeleaf_withdrawal.description>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: search for leeches -->
+  <MakeEMLeech.label>search for leeches</MakeEMLeech.label>
+  <!-- EN: Recover a claretous leech from the enclosure. These leeches subsist entirely on raw meat and can be used for various health benefits. -->
+  <MakeEMLeech.description>Recover a claretous leech from the enclosure. These leeches subsist entirely on raw meat and can be used for various health benefits.</MakeEMLeech.description>
+  <!-- EN: fishing for leeches -->
+  <MakeEMLeech.jobString>fishing for leeches</MakeEMLeech.jobString>
+</LanguageData>

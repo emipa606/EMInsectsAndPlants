@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: in a trance -->
+  <EM_witchbreathhigh.label>in a trance</EM_witchbreathhigh.label>
+  <!-- EN: in a trance -->
+  <EM_witchbreathhigh.description>in a trance</EM_witchbreathhigh.description>
+  <!-- EN: a trance -->
+  <EM_witchbreathhigh.labelNoun>a trance</EM_witchbreathhigh.labelNoun>
+  <!-- EN: smokeleaf dependence -->
+  <SmokeleafAddiction.label>smokeleaf dependence</SmokeleafAddiction.label>
+  <!-- EN: smokeleaf dependence -->
+  <SmokeleafAddiction.description>smokeleaf dependence</SmokeleafAddiction.description>
+  <!-- EN: withdrawal -->
+  <SmokeleafAddiction.stages.withdrawal.label>withdrawal</SmokeleafAddiction.stages.withdrawal.label>
+  <!-- EN: smokeleaf tolerance -->
+  <SmokeleafTolerance.label>smokeleaf tolerance</SmokeleafTolerance.label>
+  <!-- EN: smokeleaf tolerance -->
+  <SmokeleafTolerance.description>smokeleaf tolerance</SmokeleafTolerance.description>
+  <!-- EN: small -->
+  <SmokeleafTolerance.stages.small.label>small</SmokeleafTolerance.stages.small.label>
+  <!-- EN: large -->
+  <SmokeleafTolerance.stages.large.label>large</SmokeleafTolerance.stages.large.label>
+  <!-- EN: massive -->
+  <SmokeleafTolerance.stages.massive.label>massive</SmokeleafTolerance.stages.massive.label>
+</LanguageData>

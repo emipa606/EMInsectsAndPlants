@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: leech poultice -->
+  <EM_LeechBlood.label>leech poultice</EM_LeechBlood.label>
+  <!-- EN: Leeches that have been starved, when applied to the skin will promote blood filtration and help the body fight off diseases and infections. -->
+  <EM_LeechBlood.description>Leeches that have been starved, when applied to the skin will promote blood filtration and help the body fight off diseases and infections.</EM_LeechBlood.description>
+  <!-- EN: Apply {0} -->
+  <EM_LeechBlood.ingestible.ingestCommandString>Apply {0}</EM_LeechBlood.ingestible.ingestCommandString>
+  <!-- EN: Applying {0}. -->
+  <EM_LeechBlood.ingestible.ingestReportString>Applying {0}.</EM_LeechBlood.ingestible.ingestReportString>
+  <!-- EN: Consuming {0}. -->
+  <EM_LeechBlood.ingestible.ingestReportStringEat>Consuming {0}.</EM_LeechBlood.ingestible.ingestReportStringEat>
+</LanguageData>

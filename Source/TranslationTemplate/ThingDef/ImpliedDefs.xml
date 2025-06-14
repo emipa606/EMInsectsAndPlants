@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: insect enclosure (blueprint) -->
+  <Blueprint_ForagingSpot.label>insect enclosure (blueprint)</Blueprint_ForagingSpot.label>
+  <!-- EN: cocoon silk loom (blueprint) -->
+  <Blueprint_InsectLoom.label>cocoon silk loom (blueprint)</Blueprint_InsectLoom.label>
+  <!-- EN: leech pool (blueprint) -->
+  <Blueprint_LeechSpot.label>leech pool (blueprint)</Blueprint_LeechSpot.label>
+  <!-- EN: insect enclosure (building) -->
+  <Frame_ForagingSpot.label>insect enclosure (building)</Frame_ForagingSpot.label>
+  <!-- EN: This enclosure can house all sorts of insects, they can be coaxed out with different bait. -->
+  <Frame_ForagingSpot.description>This enclosure can house all sorts of insects, they can be coaxed out with different bait.</Frame_ForagingSpot.description>
+  <!-- EN: cocoon silk loom (building) -->
+  <Frame_InsectLoom.label>cocoon silk loom (building)</Frame_InsectLoom.label>
+  <!-- EN: A simple workstation used to turn featherwing cocoons into useable silk. -->
+  <Frame_InsectLoom.description>A simple workstation used to turn featherwing cocoons into useable silk.</Frame_InsectLoom.description>
+  <!-- EN: leech pool (building) -->
+  <Frame_LeechSpot.label>leech pool (building)</Frame_LeechSpot.label>
+  <!-- EN: A shallow pool for leeches to live in. -->
+  <Frame_LeechSpot.description>A shallow pool for leeches to live in.</Frame_LeechSpot.description>
+</LanguageData>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: lethal blowdart -->
+  <EM_BlowdartBreath.label>lethal blowdart</EM_BlowdartBreath.label>
+  <!-- EN: numbing blowdart -->
+  <EM_BlowdartNumb.label>numbing blowdart</EM_BlowdartNumb.label>
+  <!-- EN: painful blowdart -->
+  <EM_BlowdartPain.label>painful blowdart</EM_BlowdartPain.label>
+  <!-- EN: lethal blowgun -->
+  <EM_BlowgunBreath.label>lethal blowgun</EM_BlowgunBreath.label>
+  <!-- EN: Toxins that coat these darts depress breathing - can lead to lethal buildup extremely quickly. -->
+  <EM_BlowgunBreath.description>Toxins that coat these darts depress breathing - can lead to lethal buildup extremely quickly.</EM_BlowgunBreath.description>
+  <!-- EN: lethal blowgun -->
+  <EM_BlowgunBreath.verbs.Verb_Shoot.label>lethal blowgun</EM_BlowgunBreath.verbs.Verb_Shoot.label>
+  <!-- EN: numbing blowgun -->
+  <EM_BlowgunNumb.label>numbing blowgun</EM_BlowgunNumb.label>
+  <!-- EN: Numbs the target with a combination toxin, producing unconsciousness. Potentially lethal in high enough doses. -->
+  <EM_BlowgunNumb.description>Numbs the target with a combination toxin, producing unconsciousness. Potentially lethal in high enough doses.</EM_BlowgunNumb.description>
+  <!-- EN: numbing blowgun -->
+  <EM_BlowgunNumb.verbs.Verb_Shoot.label>numbing blowgun</EM_BlowgunNumb.verbs.Verb_Shoot.label>
+  <!-- EN: painful blowgun -->
+  <EM_BlowgunPain.label>painful blowgun</EM_BlowgunPain.label>
+  <!-- EN: The same toxin that produces stimulation when ingested burns intensely when it enters the bloodstream. Causes a lot of pain. -->
+  <EM_BlowgunPain.description>The same toxin that produces stimulation when ingested burns intensely when it enters the bloodstream. Causes a lot of pain.</EM_BlowgunPain.description>
+  <!-- EN: painful blowgun -->
+  <EM_BlowgunPain.verbs.Verb_Shoot.label>painful blowgun</EM_BlowgunPain.verbs.Verb_Shoot.label>
+</LanguageData>

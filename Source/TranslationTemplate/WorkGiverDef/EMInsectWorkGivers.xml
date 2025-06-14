@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: grub foraging -->
+  <DoBillsForaging.label>grub foraging</DoBillsForaging.label>
+  <!-- EN: searching -->
+  <DoBillsForaging.gerund>searching</DoBillsForaging.gerund>
+  <!-- EN: searching -->
+  <DoBillsForaging.verb>searching</DoBillsForaging.verb>
+  <!-- EN: grub foraging -->
+  <DoBillsLeech.label>grub foraging</DoBillsLeech.label>
+  <!-- EN: searching -->
+  <DoBillsLeech.gerund>searching</DoBillsLeech.gerund>
+  <!-- EN: searching -->
+  <DoBillsLeech.verb>searching</DoBillsLeech.verb>
+  <!-- EN: grub foraging -->
+  <DoBillsLoom.label>grub foraging</DoBillsLoom.label>
+  <!-- EN: spinning -->
+  <DoBillsLoom.gerund>spinning</DoBillsLoom.gerund>
+  <!-- EN: spinning -->
+  <DoBillsLoom.verb>spinning</DoBillsLoom.verb>
+</LanguageData>

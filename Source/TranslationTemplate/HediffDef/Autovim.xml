@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: autovim dependence -->
+  <EM_AutovimAdd.label>autovim dependence</EM_AutovimAdd.label>
+  <!-- EN: autovim dependence -->
+  <EM_AutovimAdd.description>autovim dependence</EM_AutovimAdd.description>
+  <!-- EN: withdrawal -->
+  <EM_AutovimAdd.stages.withdrawal.label>withdrawal</EM_AutovimAdd.stages.withdrawal.label>
+  <!-- EN: autovim stimulation -->
+  <EM_AutovimHigh.label>autovim stimulation</EM_AutovimHigh.label>
+  <!-- EN: autovim stimulation -->
+  <EM_AutovimHigh.description>autovim stimulation</EM_AutovimHigh.description>
+  <!-- EN: an autovim stimulation -->
+  <EM_AutovimHigh.labelNoun>an autovim stimulation</EM_AutovimHigh.labelNoun>
+  <!-- EN: autovim tolerance -->
+  <EM_AutovimTol.label>autovim tolerance</EM_AutovimTol.label>
+  <!-- EN: autovim tolerance -->
+  <EM_AutovimTol.description>autovim tolerance</EM_AutovimTol.description>
+  <!-- EN: small -->
+  <EM_AutovimTol.stages.small.label>small</EM_AutovimTol.stages.small.label>
+  <!-- EN: large -->
+  <EM_AutovimTol.stages.large.label>large</EM_AutovimTol.stages.large.label>
+  <!-- EN: massive -->
+  <EM_AutovimTol.stages.massive.label>massive</EM_AutovimTol.stages.massive.label>
+</LanguageData>

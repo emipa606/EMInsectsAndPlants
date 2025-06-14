@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <PArrowPain.label>poisoned</PArrowPain.label>
   <PArrowPain.deathMessage>{0} has been painfully poisoned.</PArrowPain.deathMessage>

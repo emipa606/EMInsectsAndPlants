@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: poisoned -->
+  <Poison.label>poisoned</Poison.label>
+  <!-- EN: poisoned -->
+  <Poison.description>poisoned</Poison.description>
+  <!-- EN: cured -->
+  <Poison.comps.HediffComp_TendDuration.labelSolidTendedWell>cured</Poison.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: countered -->
+  <Poison.comps.HediffComp_TendDuration.labelTendedWell>countered</Poison.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: neutralised -->
+  <Poison.comps.HediffComp_TendDuration.labelTendedWellInner>neutralised</Poison.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: discoloured patch -->
+  <Poison.comps.HediffComp_GetsPermanent.permanentLabel>discoloured patch</Poison.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Necrotised -->
+  <Poison.injuryProps.destroyedLabel>Necrotised</Poison.injuryProps.destroyedLabel>
+  <!-- EN: Withered -->
+  <Poison.injuryProps.destroyedOutLabel>Withered</Poison.injuryProps.destroyedOutLabel>
+  <!-- EN: a poisoned wound -->
+  <Poison.labelNoun>a poisoned wound</Poison.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Poison.labelNounPretty>{0} in the {1}</Poison.labelNounPretty>
+  <!-- EN: toxin -->
+  <Toxin.label>toxin</Toxin.label>
+  <!-- EN: toxin -->
+  <Toxin.description>toxin</Toxin.description>
+  <!-- EN: cured -->
+  <Toxin.comps.HediffComp_TendDuration.labelSolidTendedWell>cured</Toxin.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: countered -->
+  <Toxin.comps.HediffComp_TendDuration.labelTendedWell>countered</Toxin.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: neutralised -->
+  <Toxin.comps.HediffComp_TendDuration.labelTendedWellInner>neutralised</Toxin.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: discoloured patch -->
+  <Toxin.comps.HediffComp_GetsPermanent.permanentLabel>discoloured patch</Toxin.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Necrotised -->
+  <Toxin.injuryProps.destroyedLabel>Necrotised</Toxin.injuryProps.destroyedLabel>
+  <!-- EN: Withered -->
+  <Toxin.injuryProps.destroyedOutLabel>Withered</Toxin.injuryProps.destroyedOutLabel>
+  <!-- EN: a toxic wound -->
+  <Toxin.labelNoun>a toxic wound</Toxin.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Toxin.labelNounPretty>{0} in the {1}</Toxin.labelNounPretty>
+  <!-- EN: envenomed -->
+  <Venom.label>envenomed</Venom.label>
+  <!-- EN: envenomed -->
+  <Venom.description>envenomed</Venom.description>
+  <!-- EN: cured -->
+  <Venom.comps.HediffComp_TendDuration.labelSolidTendedWell>cured</Venom.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: countered -->
+  <Venom.comps.HediffComp_TendDuration.labelTendedWell>countered</Venom.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: neutralised -->
+  <Venom.comps.HediffComp_TendDuration.labelTendedWellInner>neutralised</Venom.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: discoloured patch -->
+  <Venom.comps.HediffComp_GetsPermanent.permanentLabel>discoloured patch</Venom.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Necrotised -->
+  <Venom.injuryProps.destroyedLabel>Necrotised</Venom.injuryProps.destroyedLabel>
+  <!-- EN: Withered -->
+  <Venom.injuryProps.destroyedOutLabel>Withered</Venom.injuryProps.destroyedOutLabel>
+  <!-- EN: an envenomed wound -->
+  <Venom.labelNoun>an envenomed wound</Venom.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Venom.labelNounPretty>{0} in the {1}</Venom.labelNounPretty>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: forage for ants -->
+  <MakeEMAnt.label>forage for ants</MakeEMAnt.label>
+  <!-- EN: Recover an autovim ant from the enclosure. These ants eat plant matter and can be refined into a stimulating drug. -->
+  <MakeEMAnt.description>Recover an autovim ant from the enclosure. These ants eat plant matter and can be refined into a stimulating drug.</MakeEMAnt.description>
+  <!-- EN: foraging for beetles -->
+  <MakeEMAnt.jobString>foraging for beetles</MakeEMAnt.jobString>
+</LanguageData>

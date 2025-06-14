@@ -1,0 +1,57 @@
+ManifestFileVersion: 0
+CRC: 3854040231
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 30fed6f9035ca92b888cac519954630d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 30fed6f9035ca92b888cac519954630d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/leech.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Building/pool.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/Weapon/blowgunP.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/Willow/willow.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/cocoon/Cocoon_c.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/spider.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/tincture.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/beetle/beetle_a.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/ant.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/Apparel/InsectMask/SpiderMask_east.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/beetle.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/silk.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Building/forage.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/Weapon/dartP.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/grub.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/Weapon/dartV.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Building/loom.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/cocoon/Cocoon_b.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/beetle/beetle_b.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/beetle/beetle.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/Weapon/dartT.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/bandage.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/Weapon/blowgunV.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/cocoon/Cocoon_a.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/cocoon.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/willow3.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/base.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/rope.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/Apparel/InsectMask/SpiderMask.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/poultice.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/Apparel/InsectMask/SpiderMask_south.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/cocoon/cocoon.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/willow.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/Apparel/InsectMask/SpiderMask_north.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/painkiller.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/beetle/beetle_c.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/Weapon/blowgunT.png
+- Assets/Data/Mlie.EMInsectsAndPlants/Textures/Things/Item/Weapon/dart.png
+Dependencies: []

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: recover cocoon -->
+  <MakeEMFWCocoon.label>recover cocoon</MakeEMFWCocoon.label>
+  <!-- EN: Recover useable material from the discarded cocoons of featherwing grubs. -->
+  <MakeEMFWCocoon.description>Recover useable material from the discarded cocoons of featherwing grubs.</MakeEMFWCocoon.description>
+  <!-- EN: recovering material -->
+  <MakeEMFWCocoon.jobString>recovering material</MakeEMFWCocoon.jobString>
+  <!-- EN: forage for grubs -->
+  <MakeEMFWGrub.label>forage for grubs</MakeEMFWGrub.label>
+  <!-- EN: Gently recover a live featherwing grub from the enclosure. They eat wood and can be harvested for their silk. -->
+  <MakeEMFWGrub.description>Gently recover a live featherwing grub from the enclosure. They eat wood and can be harvested for their silk.</MakeEMFWGrub.description>
+  <!-- EN: foraging for grubs -->
+  <MakeEMFWGrub.jobString>foraging for grubs</MakeEMFWGrub.jobString>
+  <!-- EN: make cocoon rope -->
+  <MakeEMFWRope.label>make cocoon rope</MakeEMFWRope.label>
+  <!-- EN: Spin featherwing cocoons into rope. -->
+  <MakeEMFWRope.description>Spin featherwing cocoons into rope.</MakeEMFWRope.description>
+  <!-- EN: weaving rope -->
+  <MakeEMFWRope.jobString>weaving rope</MakeEMFWRope.jobString>
+  <!-- EN: make cocoon silk -->
+  <MakeEMFWSilk.label>make cocoon silk</MakeEMFWSilk.label>
+  <!-- EN: Spin featherwing cocoons into silk. -->
+  <MakeEMFWSilk.description>Spin featherwing cocoons into silk.</MakeEMFWSilk.description>
+  <!-- EN: recovering material -->
+  <MakeEMFWSilk.jobString>recovering material</MakeEMFWSilk.jobString>
+  <!-- EN: make megascarab mask -->
+  <MakeEMSpiderMask.label>make megascarab mask</MakeEMSpiderMask.label>
+  <!-- EN: Craft a terrifying megascarab mask out of cocoon silk. -->
+  <MakeEMSpiderMask.description>Craft a terrifying megascarab mask out of cocoon silk.</MakeEMSpiderMask.description>
+  <!-- EN: cafting megascarab mask -->
+  <MakeEMSpiderMask.jobString>cafting megascarab mask</MakeEMSpiderMask.jobString>
+</LanguageData>

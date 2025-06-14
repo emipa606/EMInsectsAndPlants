@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: stimulated on autovim -->
+  <EM_AutovimHigh.stages.stimulated_on_autovim.label>stimulated on autovim</EM_AutovimHigh.stages.stimulated_on_autovim.label>
+  <!-- EN: Everything feels sharper. -->
+  <EM_AutovimHigh.stages.stimulated_on_autovim.description>Everything feels sharper.</EM_AutovimHigh.stages.stimulated_on_autovim.description>
+  <!-- EN: Autovim withdrawal -->
+  <EM_AutovimWith.stages.Autovim_withdrawal.label>Autovim withdrawal</EM_AutovimWith.stages.Autovim_withdrawal.label>
+  <!-- EN: Everything feels slower without some autovim. -->
+  <EM_AutovimWith.stages.Autovim_withdrawal.description>Everything feels slower without some autovim.</EM_AutovimWith.stages.Autovim_withdrawal.description>
+</LanguageData>
